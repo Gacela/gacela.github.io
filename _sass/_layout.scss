@@ -1,3 +1,39 @@
+
+.panel {
+  	-webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -o-transform: skew(15deg);
+    left:-11%;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('../webfonts/Nexa_Free_Bold-webfont.woff2') format('woff2'),
+         url('../webfonts/Nexa_Free_Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa Light';
+    src: url('../webfonts/Nexa_Free_Light-webfont.woff2') format('woff2'),
+         url('../webfonts/Nexa_Free_Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text-display-bold {
+  font-family: "Nexa Bold";
+}
+.text-display-light {
+  font-family: "Nexa Light";
+}
+
+.text-6xl{
+  font-size: 4rem;
+}
+
 /**
  * Site header
  */
