@@ -4,28 +4,18 @@
   {% include head.html %}
 
   <body>
-    <nav class="absolute w-full">
-      <div class="flex justify-end container mx-auto">
-      <div class="w-2/3 px-8 flex justify-between my-8">
-        <a href="">Projects</a>
-        <a href="">Fun stuff</a>
-        <a href="">About me</a>
-        <a href="">Reach out</a>
-      </div>
-      </div>
-    </nav>
 
     <div class="container flex no-wrap mx-auto">
       <div class="w-1/2 px-8">
         <div class="bg-blue panel absolute pin-y w-1/2"></div>
-        <div class="relative flex flex-col text-white h-screen justify-center">
-          <span class="uppercase text-display-light text-4xl w-2/3 pr-8">Ana Paula Tello</span>
-          <span class="uppercase text-display-bold text-6xl w-5/6 pr-8">UI</span>
-          <span class="uppercase text-display-light text-6xl w-5/6 pr-8">+</span>
-          <span class="uppercase text-display-bold text-6xl w-5/6 pr-8">Visual Design</span>
+        <div class="relative flex flex-col text-white h-screen justify-center uppercase leading-tight items-start">
+          <span class="text-display-light text-4xl w-2/3 pr-8">Ana Paula Tello</span>
+          <span class="leading-none text-display-bold text-6xl px-8 pt-2 border-2 rounded border-white mt-6">UI</span>
+          <span class="text-display-light text-6xl w-5/6 pr-8">+</span>
+          <span class="text-display-bold text-6xl w-5/6 pr-8">Visual Design</span>
         </div>
       </div>
-      <div class="w-1/2 mx-8 pt-8 m-t">
+      <div class="w-1/2 mx-8">
         {{ content }}
       </div>
     </div>

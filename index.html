@@ -1,23 +1,12 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<nav>
+  <div class="flex flex-col text-2xl text-blue h-screen justify-center">
+    <p class="text-justify mb-8">I'm a <span class="font-bold text-black">UI</span> and <span class="font-bold text-black">visual designer</span> based in Mexico City. My education background is in graphic design and illustration, but I'm also a huge usability nerd.</p>
+    <p class="text-justify mb-8 leading-loose">See some <a href="projects.html" class="font-bold text-black  p-3 pb-2 border-2 rounded border-black">projects I've worked on</a> or other <a href="" class="font-bold text-black  p-3 pb-2 border-2 rounded border-black">fun stuff I've made</a>.</p>
+    <p class="text-justify mb-8 leading-loose">Learn a bit more <a href="/about/" class="font-bold text-black  p-3 pb-2 border-2 rounded border-black">about me</a> and feel free to <a href="" class="font-bold text-black  p-3 pb-2 border-2 rounded border-black">contact me</a> if you have any questions.</p>
+  </div>
+</nav>
