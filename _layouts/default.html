@@ -14,12 +14,24 @@
 
     <div class="flex no-wrap">
       <div class="w-1/3 px-8">
-        <div class="bg-blue panel absolute pin-y w-1/3"></div>
-        <a href="/" class="block absolute pin-y flex flex-col text-white h-screen justify-center">
-          <span class="uppercase text-display-light text-3xl w-2/3 pr-8">Ana Paula Tello</span>
-          <span class="uppercase text-display-bold text-5xl w-5/6 pr-8">UI</span>
-          <span class="uppercase text-display-light text-5xl w-5/6 pr-8">+</span>
-          <span class="uppercase text-display-bold text-5xl w-5/6 pr-8">Visual Design</span>
+        <div class="bg-blue panel w-1/3"></div>
+        <a class="panel-text uppercase" href="
+        {% if page.lang == 'es' %}
+        /
+        {% elsif page.lang == 'en' %}
+        /en/
+        {% endif %}
+        ">
+          <span class="leading-tight text-display-light text-3xl w-2/3 pr-8">Ana Paula Tello</span>
+          {% if page.lang == 'en' %}
+          <span class="mt-6 text-display-bold text-5xl w-5/6 pr-8">UI</span>
+          <span class="text-display-light text-5xl w-5/6 pr-8">+</span>
+          <span class="leading-tight text-display-bold text-5xl w-5/6 pr-8">Visual Design</span>
+          {% elsif page.lang == 'es' %}
+          <span class="mt-4 leading-tight text-display-bold text-5xl w-5/6 pr-8">Diseño visual</span>
+          <span class="text-display-light text-3xl w-2/3 pr-8">y de</span>
+          <span class="text-display-bold text-5xl w-5/6 pr-8">interfaz</span>
+          {% endif %}
         </a>
       </div>
       <div class="w-2/3 mt-8 mr-8">

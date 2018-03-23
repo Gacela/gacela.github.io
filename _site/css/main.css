@@ -143,7 +143,20 @@ pre {
   -moz-transform: skew(15deg);
   -o-transform: skew(15deg);
   left: -11%;
-  height: 100vh; }
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0; }
+
+.panel-text {
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  color: #FFF;
+  justify-content: center; }
 
 @font-face {
   font-family: 'Nexa Bold';
@@ -163,6 +176,14 @@ pre {
 
 .text-6xl {
   font-size: 4rem; }
+
+.button {
+  color: #22292f;
+  padding: 0.5rem 0.75rem 0.25rem 0.75rem;
+  font-weight: 700;
+  border-width: 2px;
+  border-radius: 0.25rem;
+  border-color: #22292f; }
 
 /**
  * Site header

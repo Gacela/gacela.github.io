@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="flex flex-row">
+<div class="w-1/2 mr-8">
+  <p>Ana Paula Tello Aguilar</p>
+  <p> 08/08/1990. 27
+    {% if page.lang == 'en' %}
+      years old.
+    {% elsif page.lang == 'es' %}
+      años.
+    {% endif %}
+  </p>
+  <p> +52 55 4246 9719 </p>
+  <p>
+  {% if page.lang == 'en' %}
+    Benito Juarez, Mexico City
+  {% elsif page.lang == 'es' %}
+    Benito Juarez, Ciudad de México
+  {% endif %}
+  </p>
+</div>
+<div class="w-1/2 ml-8">
+  <img src="{{ "/img/ana.jpg" | absolute_url }}">
+</div>
+</div>
+<div class="">
+  {{ content }}
+</div>
