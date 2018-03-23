@@ -6,9 +6,35 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Mar 2018 01:02:44 -0600</pubDate>
-    <lastBuildDate>Fri, 23 Mar 2018 01:02:44 -0600</lastBuildDate>
+    <pubDate>Fri, 23 Mar 2018 16:36:29 -0600</pubDate>
+    <lastBuildDate>Fri, 23 Mar 2018 16:36:29 -0600</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Vexilo</title>
+        <description>&lt;p&gt;&lt;img src=&quot;post.cover_img&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/project/2018/03/23/vexilo.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2018/03/23/vexilo.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Dona.me</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/projects/doname/1-diagrama_donante.jpg&quot; alt=&quot;Diagrama de donador&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/project/2018/03/23/doname.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2018/03/23/doname.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>

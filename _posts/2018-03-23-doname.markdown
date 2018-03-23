@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Dona.me"
+categories: project
+cover_img: https://pbs.twimg.com/profile_images/589478477683826689/f1dVBkEQ_400x400.png
+---
+![Diagrama de donador]({{ "/img/projects/doname/1-diagrama_donante.jpg" | absolute_url }})
