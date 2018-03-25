@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "Dona.me"
+title:  "Vexilo"
 categories: project
 cover_img: https://pbs.twimg.com/profile_images/589478477683826689/f1dVBkEQ_400x400.png
+lang: en
+permalink: /en/2018/vexilo/
+translated_section: /2018/vexilo/
 ---
-![Diagrama de donador]({{ "/img/projects/doname/1-diagrama_donante.jpg" | absolute_url }})
+![My helpful screenshot](post.cover_img)

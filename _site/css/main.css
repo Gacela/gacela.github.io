@@ -139,24 +139,45 @@ pre {
     fill: #828282; }
 
 .panel {
-  -webkit-transform: skew(15deg);
-  -moz-transform: skew(15deg);
-  -o-transform: skew(15deg);
-  left: -11%;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  bottom: 0; }
+  display: none;
+  background-image: url("/img/panel_bg.jpg");
+  background-size: cover;
+  background-position: bottom center; }
+  @media (min-width: 768px) {
+    .panel {
+      display: block;
+      -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+      clip-path: polygon(0 0, 70% 0%, 100% 100%, 0% 100%);
+      height: 100vh;
+      width: 50%;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: -3rem; } }
 
 .panel-text {
-  height: 100vh;
+  width: 100%;
   display: flex;
-  position: fixed;
-  top: 0;
-  bottom: 0;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
   color: #FFF;
-  justify-content: center; }
+  text-transform: uppercase;
+  line-height: 1.25;
+  background-image: url("/img/panel_bg.jpg");
+  background-size: cover;
+  background-position: bottom center; }
+  @media (min-width: 768px) {
+    .panel-text {
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      width: auto;
+      padding-left: 0;
+      padding-right: 0;
+      background-image: none; } }
 
 @font-face {
   font-family: 'Nexa Bold';

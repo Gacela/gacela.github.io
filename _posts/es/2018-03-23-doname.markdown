@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Dona.me"
+categories: project
+cover_img: https://pbs.twimg.com/profile_images/589478477683826689/f1dVBkEQ_400x400.png
+lang: es
+permalink: /2018/doname
+translated_section: /en/2018/doname
+---
+Identidad / Interfaz de usuario / Ilustración
+
+Dona.me es un proyecto inhouse de Vexilo en proceso. Consiste en una plataforma donde individuos, grupos y organizaciones sociales puedan recibir donaciones para un proyecto o causa.
+
+El reto:
+La plataforma está enfocada a dos tipos de usuarios: Los donatarios que no tienen fácil acceso a tecnologías de motores de pago y servicios de diseño web personalizado para inspirar confianza a sus donantes; y los donantes que no están familiarizados con los pagos en línea o les tienen desconfianza, pero creen en una causa y la quieren apoyar.
+
+![Diagrama de donador]({{ "/img/projects/doname/1-diagrama_donante.png" | absolute_url }})
+
+![Diagrama de donatario]({{ "/img/projects/doname/1-diagrama_donante.png" | absolute_url }})
+
+La identidad:
+Buscamos algo simple, que sirviera en diferentes contextos en la web
+
+![Diagrama de donador]({{ "/img/projects/doname/1-diagrama_donante.png" | absolute_url }})
+
+La web app:

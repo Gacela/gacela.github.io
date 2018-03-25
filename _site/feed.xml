@@ -6,17 +6,33 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Mar 2018 16:36:29 -0600</pubDate>
-    <lastBuildDate>Fri, 23 Mar 2018 16:36:29 -0600</lastBuildDate>
+    <pubDate>Sun, 25 Mar 2018 00:24:08 -0600</pubDate>
+    <lastBuildDate>Sun, 25 Mar 2018 00:24:08 -0600</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
-        <title>Vexilo</title>
-        <description>&lt;p&gt;&lt;img src=&quot;post.cover_img&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+        <title>Dona.me</title>
+        <description>&lt;p&gt;Identidad / Interfaz de usuario / Ilustración&lt;/p&gt;
+
+&lt;p&gt;Dona.me es un proyecto inhouse de Vexilo en proceso. Consiste en una plataforma donde individuos, grupos y organizaciones sociales puedan recibir donaciones para un proyecto o causa.&lt;/p&gt;
+
+&lt;p&gt;El reto:
+La plataforma está enfocada a dos tipos de usuarios: Los donatarios que no tienen fácil acceso a tecnologías de motores de pago y servicios de diseño web personalizado para inspirar confianza a sus donantes; y los donantes que no están familiarizados con los pagos en línea o les tienen desconfianza, pero creen en una causa y la quieren apoyar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/projects/doname/1-diagrama_donante.png&quot; alt=&quot;Diagrama de donador&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/projects/doname/1-diagrama_donante.png&quot; alt=&quot;Diagrama de donatario&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La identidad:
+Buscamos algo simple, que sirviera en diferentes contextos en la web&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/projects/doname/1-diagrama_donante.png&quot; alt=&quot;Diagrama de donador&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La web app:&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/project/2018/03/23/vexilo.html</link>
-        <guid isPermaLink="true">http://localhost:4000/project/2018/03/23/vexilo.html</guid>
+        <link>http://localhost:4000/2018/doname</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/doname</guid>
         
         
         <category>project</category>
@@ -24,12 +40,12 @@
       </item>
     
       <item>
-        <title>Dona.me</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/projects/doname/1-diagrama_donante.jpg&quot; alt=&quot;Diagrama de donador&quot; /&gt;&lt;/p&gt;
+        <title>Vexilo</title>
+        <description>&lt;p&gt;&lt;img src=&quot;post.cover_img&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/project/2018/03/23/doname.html</link>
-        <guid isPermaLink="true">http://localhost:4000/project/2018/03/23/doname.html</guid>
+        <link>http://localhost:4000/en/2018/vexilo/</link>
+        <guid isPermaLink="true">http://localhost:4000/en/2018/vexilo/</guid>
         
         
         <category>project</category>

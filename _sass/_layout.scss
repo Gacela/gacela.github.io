@@ -1,25 +1,57 @@
 .panel {
-  	-webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    -o-transform: skew(15deg);
-    left:-11%;
+  display: none;
+  background-image: url('/img/panel_bg.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  @media (min-width: 768px) {
+    display: block;
+    -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 70% 0%, 100% 100%, 0% 100%);
     height: 100vh;
+    width: 50%;
     position: fixed;
     top:0;
     bottom:0;
+    left:-3rem;
+  }
 }
 
 .panel-text {
-          height: 100vh;
+          @media (min-width: 768px) {
+            // Propiedades desktop
+            height: 100vh;
+            position: fixed;
+            top:0;
+            bottom:0;
+            width: auto;
+            padding-left: 0;
+            padding-right: 0;
+            background-image: none;
+          }
+
+          // Propiedades mobile
+          width: 100%;
+
+          //Propiedades generales
           display: flex;
-          position: fixed;
-          top:0;
-          bottom:0;
           flex-direction: column;
-          color: #FFF;
           justify-content: center;
+          align-items: flex-start;
+          padding: 2rem;
+
+          // Texto
+          color: #FFF;
+          text-transform: uppercase;
+          line-height: 1.25;
+
+
+          //Fondo
+          background-image: url('/img/panel_bg.jpg');
+          background-size: cover;
+          background-position: bottom center;
+
         }
-        
+
 
 @font-face {
     font-family: 'Nexa Bold';

@@ -1,5 +1,5 @@
 {% if page.lang == 'es' %}
-<span class="font-bold">Español</span> / <a href="{{ page.translated_section }}">English</a>
+<a class="button" href="{{ page.translated_section }}">English</a>
 {% elsif page.lang == 'en' %}
-<a href="{{ page.translated_section }}">Español</a> / <span class="font-bold">English</span>
+<a class="button" href="{{ page.translated_section }}">Español</a>
 {% endif %}

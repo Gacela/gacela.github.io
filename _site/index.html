@@ -14,27 +14,29 @@
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="Ana Paula Tello / UI + Visual Design" href="http://localhost:4000/feed.xml">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/assets/scripts.js"></script>
 </head>
 
 
   <body>
 
-    <div class="container flex no-wrap mx-auto">
-      <div class="w-1/2 px-8">
-        <div class="bg-blue panel w-1/2"></div>
-        <h1 class="panel-text uppercase leading-tight items-start">
-          <span class="text-display-light text-4xl w-2/3 pr-8">Ana Paula Tello</span>
+    <div class="container flex flex-wrap md:flex-no-wrap md:mx-auto">
+      <div class="w-full md:w-1/2 md:px-8">
+        <div class="bg-blue panel"></div>
+        <h1 class="bg-blue md:bg-transparent panel-text">
+          <span class="text-display-light text-4xl md:w-2/3 pr-8">Ana Paula Tello</span>
           <span class="leading-none text-display-bold text-6xl px-8 pt-2 border-2 rounded border-white mt-6">UI</span>
-          <span class="text-display-light text-6xl w-5/6 pr-8">+</span>
+          <span class="text-display-light text-6xl md:w-5/6 pr-8">+</span>
           
-          <span class="text-display-bold text-6xl w-5/6 pr-8">Diseño visual</span>
+          <span class="text-display-bold text-6xl md:w-5/6 pr-8">Diseño visual</span>
           
         </h1>
       </div>
-      <div class="w-1/2 mx-8">
-        <div class="text-right py-8 mr-8">
+      <div class="w-full md:w-1/2 mx-8">
+        <div class="absolute pin-t pin-r text-white md:text-blue md:relative text-right py-8 mr-8">
           
-<span class="font-bold">Español</span> / <a href="/en/">English</a>
+<a class="button" href="/en/">English</a>
 
 
         </div>
@@ -68,7 +70,7 @@
           
         
           
-          <a class="page-link" href="/acerca/">More about me</a>
+          <a class="page-link" href="/acerca/">Acerca de mi</a>
           
         
           

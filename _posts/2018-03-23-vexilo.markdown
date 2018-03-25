@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Vexilo"
-categories: project
-cover_img: https://pbs.twimg.com/profile_images/589478477683826689/f1dVBkEQ_400x400.png
----
-![My helpful screenshot](post.cover_img)
