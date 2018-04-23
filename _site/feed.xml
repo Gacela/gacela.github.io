@@ -6,33 +6,41 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Mar 2018 14:10:33 -0600</pubDate>
-    <lastBuildDate>Sun, 25 Mar 2018 14:10:33 -0600</lastBuildDate>
+    <pubDate>Sat, 21 Apr 2018 20:05:25 -0500</pubDate>
+    <lastBuildDate>Sat, 21 Apr 2018 20:05:25 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>Dona.me</title>
-        <description>&lt;p&gt;Identidad / Interfaz de usuario / Ilustración&lt;/p&gt;
+        <description>&lt;p&gt;Dona.me es un proyecto inhouse de Vexilo en proceso. Consiste en una plataforma donde individuos, grupos y organizaciones sociales puedan recibir donaciones para un proyecto o causa.&lt;/p&gt;
 
-&lt;p&gt;Dona.me es un proyecto inhouse de Vexilo en proceso. Consiste en una plataforma donde individuos, grupos y organizaciones sociales puedan recibir donaciones para un proyecto o causa.&lt;/p&gt;
+&lt;h2&gt;El reto&lt;/h2&gt;
+&lt;p&gt;La plataforma está enfocada a dos tipos de usuarios: &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Los donatarios que no tienen fácil acceso a tecnologías de motores de pago y servicios de diseño web personalizado para inspirar confianza a sus donantes.&lt;/li&gt;
+  &lt;li&gt;Los donantes que no están familiarizados con los pagos en línea o les tienen desconfianza, pero creen en una causa y la quieren apoyar.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;El reto:
-La plataforma está enfocada a dos tipos de usuarios: Los donatarios que no tienen fácil acceso a tecnologías de motores de pago y servicios de diseño web personalizado para inspirar confianza a sus donantes; y los donantes que no están familiarizados con los pagos en línea o les tienen desconfianza, pero creen en una causa y la quieren apoyar.&lt;/p&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/projects/doname/1-diagrama_donante.png&quot; alt=&quot;Diagrama de donador&quot; /&gt;&lt;/p&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/projects/doname/1-diagrama_donante.png&quot; alt=&quot;Diagrama de donatario&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;La identidad&lt;/h2&gt;
+Buscamos algo simple, que sirviera en diferentes contextos en la web
 
-&lt;p&gt;La identidad:
-Buscamos algo simple, que sirviera en diferentes contextos en la web&lt;/p&gt;
+![Diagrama de donador](http://localhost:4000/img/projects/doname/1-diagrama_donante.png)
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/projects/doname/1-diagrama_donante.png&quot; alt=&quot;Diagrama de donador&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;La web app:&lt;/p&gt;
+La web app:
 </description>
         <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/2018/doname</link>
         <guid isPermaLink="true">http://localhost:4000/2018/doname</guid>
+        
+        <category>Identidad</category>
+        
+        <category>Interfaz de usuario</category>
+        
+        <category>Ilustración</category>
         
         
         <category>project</category>

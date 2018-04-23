@@ -1,32 +1,74 @@
 .panel {
   display: none;
-  background-image: url('/img/panel_bg.jpg');
-  background-size: cover;
-  background-position: bottom center;
+  z-index: -1;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8b4699+0,3f8c9b+100 */
+  background: #8b4699; /* Old browsers */
+  background: -moz-linear-gradient(top, #8b4699 0%, #3f8c9b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #8b4699 0%,#3f8c9b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #8b4699 0%,#3f8c9b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b4699', endColorstr='#3f8c9b',GradientType=0 ); /* IE6-9 */
+  // background-image: url('/img/panel_bg.jpg');
+  // background-size: cover;
+  // background-position: bottom center;
   @media (min-width: 768px) {
+    .panel-home &, .panel-left &{
+      display: block;
+      height: 100vh;
+      position: fixed;
+      top:0;
+      bottom:0;
+    }
+
+    .panel-home & {
+      -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+      clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+      width: 40%;
+      left:-3rem;
+    }
+
+    .panel-left & {
+      -webkit-clip-path: polygon(0 0, 72% 0%, 100% 100%, 0% 100%);
+      clip-path: polygon(0 0, 72% 0%, 100% 100%, 0% 100%);
+      width: 25%;
+      left: 0rem;
+    }
+  }
+
+  .panel-top & {
     display: block;
-    -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 0, 70% 0%, 100% 100%, 0% 100%);
-    height: 100vh;
-    width: 50%;
-    position: fixed;
+    position: absolute;
     top:0;
-    bottom:0;
-    left:-3rem;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 72%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 72%, 0% 100%);
+    width: 100%;
+    height: 30rem;
+    max-height: 100vh;
   }
 }
 
 .panel-text {
           @media (min-width: 768px) {
             // Propiedades desktop
-            height: 100vh;
-            position: fixed;
-            top:0;
-            bottom:0;
-            width: auto;
-            padding-left: 0;
-            padding-right: 0;
-            background-image: none;
+            .panel-home &, .panel-left &{
+              height: 100vh;
+              position: fixed;
+              top:0;
+              bottom:0;
+              width: auto;
+              background-image: none;
+            }
+
+            .panel-home & {
+              width: 40%;
+              padding-left: 3rem;
+              padding-right: 3rem;
+            }
+
+            .panel-left & {
+              width: 25%;
+              padding-left: 2rem;
+              padding-right: 2rem;
+            }
           }
 
           // Propiedades mobile
@@ -43,12 +85,7 @@
           color: #FFF;
           text-transform: uppercase;
           line-height: 1.25;
-
-
-          //Fondo
-          background-image: url('/img/panel_bg.jpg');
-          background-size: cover;
-          background-position: bottom center;
+            text-shadow: 3px 3px 0px #8b4699;
 
         }
 
@@ -81,12 +118,41 @@
 }
 
 .button {
-  color:#22292f;
+  color:#794acf;
   padding: 0.5rem 0.75rem 0.25rem 0.75rem;
   font-weight: 700;
   border-width: 2px;
   border-radius: 0.25rem;
-  border-color: #22292f;
+  border-color: #794acf;
+}
+
+.button:hover {
+    color:#9561e2;
+    border-color: #9561e2;
+  }
+
+.thumbnail {
+  display: inline-block;
+  height: 300px;
+  width: 40%;
+  margin: 2rem;
+  background-size: cover;
+}
+
+/**
+Contenido
+**/
+.content {
+  @media (min-width: 768px) {
+    // Propiedades desktop
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  // @media (min-width: 992px) {
+  //   // Propiedades desktop
+  //   padding-left: 6rem;
+  //   padding-right: 6rem;
+  // }
 }
 
 /**
