@@ -35,12 +35,16 @@
   }
 
   .panel-top & {
+    -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    width: 40%;
+    left:-3rem;
     display: block;
     position: absolute;
     top:0;
-    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 72%, 0% 100%);
-    clip-path: polygon(0 0, 100% 0%, 100% 72%, 0% 100%);
-    width: 100%;
+    // -webkit-clip-path: polygon(0 0, 100% 0%, 100% 72%, 0% 100%);
+    // clip-path: polygon(0 0, 100% 0%, 100% 72%, 0% 100%);
+    // width: 100%;
     height: 30rem;
     max-height: 100vh;
   }
