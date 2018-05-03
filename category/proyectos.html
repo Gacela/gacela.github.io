@@ -1,7 +1,10 @@
 ---
-layout: gallery
+layout: leftpanel
 permalink: /proyectos/
 translated_section: /en/projects/
 lang: es
-category: project
 ---
+<h2 class="text-display-bold text-3xl text-purple-dark uppercase">Case studies</h2>
+{% include gallery.html category="case study"%}
+<h2 class="text-display-bold text-3xl text-purple-dark uppercase">Otros proyectos</h2>
+{% include gallery.html category="project" exclude="case study"%}
