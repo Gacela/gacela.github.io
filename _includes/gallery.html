@@ -4,7 +4,7 @@
   {% else %}
     {% if page.lang == post.lang %}
       <a href="{{ post.url | absolute_url }}">
-        <p><img src="{{ post.cover_img | absolute_url }}"></p>
+        <p class="w-1/2"><img src="{{ post.cover_img | absolute_url }}"></p>
         <p>{{ post.title }}</p>
       </a>
     {% endif %}

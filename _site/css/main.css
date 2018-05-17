@@ -139,8 +139,8 @@ pre {
     fill: #828282; }
 
 .panel {
-  display: none;
   z-index: -1;
+  display: none;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8b4699+0,3f8c9b+100 */
   background: #8b4699;
   /* Old browsers */
@@ -180,6 +180,17 @@ pre {
     height: 30rem;
     max-height: 100vh; }
 
+.panel-top-bg {
+  height: 30rem;
+  width: 75%;
+  max-height: 100vh;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -2;
+  background-size: cover; }
+
 .panel-text {
   width: 100%;
   display: flex;
@@ -206,7 +217,10 @@ pre {
     .panel-left .panel-text {
       width: 25%;
       padding-left: 2rem;
-      padding-right: 2rem; } }
+      padding-right: 2rem; }
+    .panel-top .panel-text {
+      height: 30rem;
+      width: 40%; } }
 
 @font-face {
   font-family: 'Nexa Bold';
@@ -410,20 +424,31 @@ Contenido
 .post-content {
   margin-bottom: 30px; }
   .post-content h2 {
-    font-size: 32px; }
+    font-size: 32px;
+    margin-bottom: 1.5rem; }
     @media screen and (max-width: 800px) {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
-    font-size: 26px; }
+    font-size: 26px;
+    margin-bottom: 1.5rem; }
     @media screen and (max-width: 800px) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
-    font-size: 20px; }
+    font-size: 20px;
+    margin-bottom: 1.5rem; }
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+  .post-content p, .post-content h1, .post-content h2, .post-content h3, .post-content ul {
+    max-width: 720px;
+    margin-right: auto;
+    margin-left: auto; }
+  .post-content p, .post-content ul, .post-content li {
+    text-align: justify;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem; }
 
 /**
  * Syntax highlighting styles

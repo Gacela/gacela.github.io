@@ -1,6 +1,12 @@
+$panel-top-height: 30rem;
+$panel-top-width: 40%;
+$panel-top-bg-width: 115% - $panel-top-width;
+$panel-home-width: 40%;
+$panel-left-width: 25%;
+
 .panel {
-  display: none;
   z-index: -1;
+  display: none;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8b4699+0,3f8c9b+100 */
   background: #8b4699; /* Old browsers */
   background: -moz-linear-gradient(top, #8b4699 0%, #3f8c9b 100%); /* FF3.6-15 */
@@ -10,6 +16,7 @@
   // background-image: url('/img/panel_bg.jpg');
   // background-size: cover;
   // background-position: bottom center;
+
   @media (min-width: 768px) {
     .panel-home &, .panel-left &{
       display: block;
@@ -22,14 +29,14 @@
     .panel-home & {
       -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
       clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
-      width: 40%;
+      width: $panel-home-width;
       left:-3rem;
     }
 
     .panel-left & {
       -webkit-clip-path: polygon(0 0, 72% 0%, 100% 100%, 0% 100%);
       clip-path: polygon(0 0, 72% 0%, 100% 100%, 0% 100%);
-      width: 25%;
+      width: $panel-left-width;
       left: 0rem;
     }
   }
@@ -37,7 +44,7 @@
   .panel-top & {
     -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
-    width: 40%;
+    width: $panel-top-width;
     left:-3rem;
     display: block;
     position: absolute;
@@ -45,9 +52,21 @@
     // -webkit-clip-path: polygon(0 0, 100% 0%, 100% 72%, 0% 100%);
     // clip-path: polygon(0 0, 100% 0%, 100% 72%, 0% 100%);
     // width: 100%;
-    height: 30rem;
+    height: $panel-top-height;
     max-height: 100vh;
   }
+}
+
+.panel-top-bg {
+  height: $panel-top-height;
+  width: $panel-top-bg-width;
+  max-height: 100vh;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -2;
+  background-size: cover;
 }
 
 .panel-text {
@@ -63,15 +82,19 @@
             }
 
             .panel-home & {
-              width: 40%;
+              width: $panel-home-width;
               padding-left: 3rem;
               padding-right: 3rem;
             }
 
             .panel-left & {
-              width: 25%;
+              width: $panel-left-width;
               padding-left: 2rem;
               padding-right: 2rem;
+            }
+            .panel-top & {
+              height: $panel-top-height;
+              width: $panel-top-width;
             }
           }
 
@@ -379,6 +402,7 @@ Contenido
 
     h2 {
         font-size: 32px;
+        margin-bottom: 1.5rem;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -387,6 +411,7 @@ Contenido
 
     h3 {
         font-size: 26px;
+        margin-bottom: 1.5rem;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -395,9 +420,22 @@ Contenido
 
     h4 {
         font-size: 20px;
+        margin-bottom: 1.5rem;
 
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+
+    p, h1, h2, h3, ul {
+      max-width: 720px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    p, ul, li {
+      text-align: justify;
+      font-size: 1.25rem;
+      margin-bottom: 1.5rem;
     }
 }

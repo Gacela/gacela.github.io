@@ -14,14 +14,6 @@ translated_section: /en/
     <div class="mt-8">
       <h2 class="text-display-bold text-3xl text-purple-dark uppercase">Últimos proyectos</h2>
       <div class="flex flex-wrap w-full">
-      <!-- {% for post in site.categories["project"] %}
-        {% if page.lang == post.lang %}
-          <a href="{{ post.url | absolute_url }}">
-            <p><img src="{{ post.cover_img | absolute_url }}" class="w-1/3 p-4"></p>
-            <p>{{ post.title }}</p>
-          </a>
-        {% endif %}
-      {% endfor %} -->
       {% include gallery.html category="project"%}
     </div>
     </div>
