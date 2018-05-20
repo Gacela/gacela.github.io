@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 May 2018 21:35:13 -0500</pubDate>
-    <lastBuildDate>Mon, 14 May 2018 21:35:13 -0500</lastBuildDate>
+    <pubDate>Thu, 17 May 2018 19:58:37 -0500</pubDate>
+    <lastBuildDate>Thu, 17 May 2018 19:58:37 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -40,9 +40,11 @@
 &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
 
 &lt;h2&gt;La identidad&lt;/h2&gt;
-Buscamos algo simple, que sirviera en diferentes contextos en la web
+&lt;p&gt;Buscamos algo simple, que sirviera en diferentes contextos en la web&lt;/p&gt;
 
-![Diagrama de donador](http://localhost:4000/img/projects/doname/1-diagrama_donante.png)
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
+
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
 
 La web app:
 </description>
