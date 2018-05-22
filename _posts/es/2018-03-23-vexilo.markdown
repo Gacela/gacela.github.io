@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vexilo"
+title:  "Lorem Ipsum"
 categories: project
 cover_img: https://pbs.twimg.com/profile_images/589478477683826689/f1dVBkEQ_400x400.png
 lang: es

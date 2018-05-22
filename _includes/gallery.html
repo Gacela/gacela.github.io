@@ -1,12 +1,14 @@
+<div class="flex flex-wrap flex-row w-full -m-2">
 {% for post in site.categories[include.category] %}
   {% if post.categories contains include.exclude %}
     {% continue %}
   {% else %}
     {% if page.lang == post.lang %}
-      <a href="{{ post.url | absolute_url }}">
-        <p class="w-1/2"><img src="{{ post.cover_img | absolute_url }}"></p>
-        <p>{{ post.title }}</p>
+      <a href="{{ post.url | absolute_url }}" class="w-1/2">
+        <p class="p-2 thumbnail" style="background-image: url({{ post.cover_img | absolute_url }}); background-position: center;"></p>
+        <p class="p-2">{{ post.title }}</p>
       </a>
     {% endif %}
   {% endif %}
 {% endfor %}
+</div>
