@@ -262,9 +262,20 @@ pre {
   height: 300px;
   background-size: cover;
   margin: 0.5rem; }
-  .thumbnail .post-content {
-    display: inline-block;
-    width: 40%; }
+  .thumbnail-row .thumbnail {
+    width: 45%; }
+
+.thumbnail-row {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #e8e8e8;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
 /**
 Contenido
