@@ -3,11 +3,6 @@ $panel-top-width: 40%;
 $panel-top-bg-width: 115% - $panel-top-width;
 $panel-home-width: 40%;
 $panel-left-width: 25%;
-$magenta: #8D48AF;
-$magenta-light: #a769bc;
-$magenta-dark: #743b90;
-$purple: #6A66AF;
-$teal: #5188B6;
 
 .panel {
   z-index: -1;
@@ -56,6 +51,11 @@ $teal: #5188B6;
     height: $panel-top-height;
     max-height: 100vh;
   }
+}
+
+.panel-home {
+  width: 100%;
+
 }
 
 .panel-top-bg {
@@ -195,6 +195,23 @@ $text-display-light: "Nexa Light";
   justify-content: space-around;
 }
 
+/**
+nav
+**/
+.nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    color: $magenta;
+    &:hover{
+      color:$magenta-light;
+    }
+  }
+}
 
 
 /**
@@ -205,108 +222,63 @@ Contenido
     // Propiedades desktop
     padding-left: 3rem;
     padding-right: 3rem;
+    padding-top: 5rem;
   }
-  // @media (min-width: 992px) {
-  //   // Propiedades desktop
-  //   padding-left: 6rem;
-  //   padding-right: 6rem;
-  // }
 }
 
-/**
- * Site header
- */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+.content, .post-content {
+  h2 {
+      font-size: 32px;
+      margin-bottom: 1.5rem;
+      color: $magenta;
+      font-family: $text-display-bold;
+      text-transform: uppercase;
+      @include media-query($on-laptop) {
+          font-size: 28px;
+      }
+  }
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+  h3 {
+      font-size: 26px;
+      margin-bottom: 1.5rem;
+      font-family: $text-display-light;
+      text-transform: uppercase;
+      @include media-query($on-laptop) {
+          font-size: 22px;
+      }
+  }
+
+  h4 {
+      font-size: 20px;
+      margin-bottom: 1.5rem;
+      font-family: $text-display-light;
+      text-transform: uppercase;
+      @include media-query($on-laptop) {
+          font-size: 18px;
+      }
+  }
+  margin-bottom: $spacing-unit;
+
+  p, h1, h2, h3, ul {
+    max-width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  p, ul, li {
+    text-align: justify;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
 }
 
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+.profile-img{
+  margin-right: -3rem;
+  background-position: top center;
+  min-height: 500px;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
-
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
-}
-
 
 
 /**
@@ -425,52 +397,5 @@ Contenido
 
     @include media-query($on-laptop) {
         font-size: 36px;
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-        margin-bottom: 1.5rem;
-        color: $magenta;
-        font-family: $text-display-bold;
-        text-transform: uppercase;
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-        margin-bottom: 1.5rem;
-        font-family: $text-display-light;
-        text-transform: uppercase;
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-        margin-bottom: 1.5rem;
-        font-family: $text-display-light;
-        text-transform: uppercase;
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
-
-    p, h1, h2, h3, ul {
-      max-width: 720px;
-      margin-right: auto;
-      margin-left: auto;
-    }
-
-    p, ul, li {
-      text-align: justify;
-      font-size: 1.25rem;
-      margin-bottom: 1.5rem;
     }
 }

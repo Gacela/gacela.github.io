@@ -1,5 +1,15 @@
-<a href="projects.html">Projects</a>
-<a href="">Fun stuff</a>
+{% if page.lang == 'en' %}
+<a href="/">Home</a>
+<a href="/projects">Projects</a>
+<!-- <a href="">Fun stuff</a> -->
 <a href="">About me</a>
 <a href="">Reach out</a>
 <span>{% include lang.html %}</span>
+{% elsif page.lang == 'es' %}
+<a href="/">Inicio</a>
+<a href="/proyectos">Proyectos</a>
+<!-- <a href="">Fun stuff</a> -->
+<a href="">Acerca de mi</a>
+<a href="">Contáctame</a>
+<!-- <span>{% include lang.html %}</span> -->
+{% endif %}
