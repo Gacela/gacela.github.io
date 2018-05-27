@@ -1,19 +1,24 @@
+$panel-gradient-firefox: -moz-linear-gradient(-45deg, $magenta 0%, $purple 50%, $teal 100%);
+$panel-gradient-chrome: -webkit-linear-gradient(-45deg, $magenta 0%,$purple 50%,$teal 100%);
+$panel-gradient: linear-gradient(135deg, $magenta 0%,$purple 50%,$teal 100%);
+$panel-gradient-IE: progid:DXImageTransform.Microsoft.gradient( startColorstr='$magenta', endColorstr='$teal',GradientType=1 );
+
 $panel-top-height: 30rem;
 $panel-top-width: 40%;
 $panel-top-bg-width: 115% - $panel-top-width;
-$panel-home-width: 40%;
+$panel-home-width: 38%;
 $panel-left-width: 25%;
 
 .panel {
   z-index: -1;
   display: none;
   background: $magenta; /* Old browsers */
-  background: -moz-linear-gradient(-45deg, $magenta 0%, $purple 50%, $teal 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, $magenta 0%,$purple 50%,$teal 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, $magenta 0%,$purple 50%,$teal 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$magenta', endColorstr='$teal',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: $panel-gradient-firefox;
+  background: $panel-gradient-chrome;
+  background: $panel-gradient;
+  filter: $panel-gradient-IE;
 
-    @media (min-width: 768px) {
+    @include media-query($tablet) {
     .panel-home &, .panel-left &{
       display: block;
       height: 100vh;
@@ -23,6 +28,9 @@ $panel-left-width: 25%;
     }
 
     .panel-home & {
+      @include media-query($desktop) {
+        max-width: 680px;
+      }
       -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
       clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
       width: $panel-home-width;
@@ -30,6 +38,9 @@ $panel-left-width: 25%;
     }
 
     .panel-left & {
+      @include media-query($desktop) {
+        max-width:420px;
+      }
       -webkit-clip-path: polygon(0 0, 72% 0%, 100% 100%, 0% 100%);
       clip-path: polygon(0 0, 72% 0%, 100% 100%, 0% 100%);
       width: $panel-left-width;
@@ -54,8 +65,29 @@ $panel-left-width: 25%;
 }
 
 .panel-home {
+  @include media-query($desktop) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 600px;
+  }
+  @include media-query($tablet) {
+    width:33.3333%;
+  }
   width: 100%;
+}
 
+.panel-left {
+  @include media-query($desktop) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 400px;
+  }
+  @include media-query($tablet) {
+    width:25%;
+  }
+  width: 100%;
 }
 
 .panel-top-bg {
@@ -71,36 +103,54 @@ $panel-left-width: 25%;
 }
 
 .panel-text {
-          @media (min-width: 768px) {
-            // Propiedades desktop
             .panel-home &, .panel-left &{
-              height: 100vh;
-              position: fixed;
-              top:0;
-              bottom:0;
-              width: auto;
-              background-image: none;
+              //desktop
+              @include media-query($tablet) {
+                height: 100vh;
+                position: fixed;
+                top:0;
+                bottom:0;
+                width: auto;
+                background: none;
+              }
+              //mobile
+              width: 100%;
+              background: $magenta; /* Old browsers */
+              background: $panel-gradient-firefox;
+              background: $panel-gradient-chrome;
+              background: $panel-gradient;
+              filter: $panel-gradient-IE;
             }
 
             .panel-home & {
-              width: $panel-home-width;
-              padding-left: 3rem;
-              padding-right: 3rem;
+              //xl screen
+              @include media-query($desktop) {
+                max-width: 400px;
+              }
+              @include media-query($tablet) {
+                width: $panel-home-width;
+                padding-left: 3rem;
+                padding-right: 3rem;
+              }
             }
 
             .panel-left & {
-              width: $panel-left-width;
-              padding-left: 2rem;
-              padding-right: 2rem;
+              //xl screen
+              @include media-query($desktop) {
+                max-width: 380px;
+              }
+              @include media-query($tablet) {
+                width: $panel-left-width;
+                padding-left: 2rem;
+                padding-right: 2rem;
+              }
             }
+
             .panel-top & {
               height: $panel-top-height;
               width: $panel-top-width;
-            }
-          }
 
-          // Propiedades mobile
-          width: 100%;
+            }
 
           //Propiedades generales
           display: flex;
@@ -115,11 +165,11 @@ $panel-left-width: 25%;
           line-height: 1.25;
 
           .text-display-light{
-            text-shadow: 2px 2px 0px $magenta-dark;
+            text-shadow: 2px 2px 0px $magenta-shadow;
           }
 
           .text-display-bold{
-            text-shadow: 3px 3px 0px $magenta-dark;
+            text-shadow: 3px 3px 0px $magenta-shadow;
           }
 
         }
@@ -166,6 +216,7 @@ $text-display-light: "Nexa Light";
   border-width: 2px;
   border-radius: 0.25rem;
   border-color: $magenta;
+  white-space: nowrap;
 }
 
 .button:hover {
@@ -174,9 +225,9 @@ $text-display-light: "Nexa Light";
   }
 
 .thumbnail {
-  height: 300px;
+  min-height: 300px;
   background-size: cover;
-  margin: 0.5rem;
+  // margin: 0.5rem;
   .thumbnail-row & {
     width: 45%;
   }
@@ -194,6 +245,10 @@ $text-display-light: "Nexa Light";
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.shadow-block {
+    box-shadow: 4px 4px 0px fade-out($magenta-shadow, 0.25);
+  }
 
 /**
 nav
@@ -225,7 +280,11 @@ Contenido
     padding-top: 5rem;
   }
 }
-
+.post-content {
+  p, h1, h2, h3, ul {
+    max-width: 720px;
+  }
+}
 .content, .post-content {
   h2 {
       font-size: 32px;
@@ -233,7 +292,7 @@ Contenido
       color: $magenta;
       font-family: $text-display-bold;
       text-transform: uppercase;
-      @include media-query($on-laptop) {
+      @include media-query($tablet) {
           font-size: 28px;
       }
   }
@@ -243,7 +302,7 @@ Contenido
       margin-bottom: 1.5rem;
       font-family: $text-display-light;
       text-transform: uppercase;
-      @include media-query($on-laptop) {
+      @include media-query($tablet) {
           font-size: 22px;
       }
   }
@@ -253,16 +312,20 @@ Contenido
       margin-bottom: 1.5rem;
       font-family: $text-display-light;
       text-transform: uppercase;
-      @include media-query($on-laptop) {
+      @include media-query($tablet) {
           font-size: 18px;
       }
   }
+
   margin-bottom: $spacing-unit;
 
   p, h1, h2, h3, ul {
-    max-width: 720px;
     margin-right: auto;
     margin-left: auto;
+    line-height: 2;
+    &.text-loose {
+      line-height: 2.25;
+    }
   }
 
   p, ul, li {
@@ -272,130 +335,46 @@ Contenido
   }
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-around;
+  width: 100%;
+  .gallery-card {
+    @include media-query($tablet) {
+        width:48%;
+    }
+    @include media-query($desktop) {
+        max-width:400px;
+    }
+    width:100%;
+    background-color: white;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+    .thumbnail {
+      border-top-left-radius: .25rem;
+      border-top-right-radius: .25rem;
+    }
+    h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      margin-right: 1rem;
+      margin-left: 1rem;
+    }
+    .text-sm {
+      font-size: 14px;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
 .profile-img{
   margin-right: -3rem;
   background-position: top center;
   min-height: 500px;
   margin-left: 2rem;
   margin-bottom: 2rem;
-}
-
-
-/**
- * Site footer
- */
-.site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-
-
-/**
- * Page content
- */
-.page-content {
-    padding: $spacing-unit 0;
-}
-
-.page-heading {
-    font-size: 20px;
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-
-
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
 }

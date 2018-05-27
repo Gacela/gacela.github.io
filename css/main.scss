@@ -20,28 +20,28 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $magenta: #8D48AF;
-$magenta-light: #a769bc;
-$magenta-dark: #743b90;
+$magenta-light: lighten($magenta, 10%);
+$magenta-dark: darken($magenta, 10%);
+$magenta-shadow: fade-out($magenta-dark, 0.5);
 $purple: #6A66AF;
 $teal: #5188B6;
 
-// Width of the content area
-$content-width:    800px;
+// Breakpoints/max widths
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
+$desktop: 1042px;
+$tablet: 839px;
+$phone: 480px;
 
 
 // Use media queries like this:
-// @include media-query($on-palm) {
+//
 //     .wrapper {
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
+    @media all and (min-width: $device) {
         @content;
     }
 }
