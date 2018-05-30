@@ -8,18 +8,21 @@
     <div class="flex flex-wrap md:flex-no-wrap md:mx-auto">
       <div class="panel-home">
         <div class="panel"></div>
-        <h1 class="panel-text">
-          <span class="text-display-light text-3xl md:w-2/3 pr-8">Ana Paula Tello</span>
-          {% if page.lang == 'en' %}
-          <span class="leading-none text-display-bold text-6xl px-8 pt-4 mt-6 pb-2 border-2 rounded border-white">UI</span>
-          <span class="leading-none text-display-light text-6xl pt-4">+</span>
-          <span class="text-display-bold text-6xl md:w-5/6 pr-8 mt-2">visual design</span>
-          {% elsif page.lang == 'es' %}
-          <span class="leading-none text-display-bold text-6xl px-8 pt-4 mt-6 pb-2 border-2 rounded border-white">UI</span>
-          <span class="leading-none text-display-light text-6xl pt-4">+</span>
-          <span class="text-display-bold text-6xl md:w-5/6 pr-8 mt-2">diseño visual</span>
-          {% endif %}
-        </h1>
+        <div class="panel-content">
+          {% include panel-nav.html %}
+          <h1 class="panel-text">
+            <span class="text-display-light text-3xl md:w-2/3 pr-8">Ana Paula Tello</span>
+            {% if page.lang == 'en' %}
+            <span class="leading-none text-display-bold text-6xl px-8 pt-4 mt-6 pb-2 border-2 rounded border-white">UI</span>
+            <span class="leading-none text-display-light text-6xl pt-4">+</span>
+            <span class="text-display-bold text-6xl md:w-5/6 pr-8 mt-2">visual design</span>
+            {% elsif page.lang == 'es' %}
+            <span class="leading-none text-display-bold text-6xl px-8 pt-4 mt-6 pb-2 border-2 rounded border-white">UI</span>
+            <span class="leading-none text-display-light text-6xl pt-4">+</span>
+            <span class="text-display-bold text-6xl md:w-5/6 pr-8 mt-2">diseño visual</span>
+            {% endif %}
+          </h1>
+        </div>
       </div>
       <div class="w-full md:w-2/3">
         <!-- <div class="absolute pin-t pin-r text-white md:text-blue md:relative text-right py-8">
