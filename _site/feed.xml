@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 May 2018 00:03:26 +0000</pubDate>
-    <lastBuildDate>Wed, 30 May 2018 00:03:26 +0000</lastBuildDate>
+    <pubDate>Thu, 31 May 2018 23:57:24 +0000</pubDate>
+    <lastBuildDate>Thu, 31 May 2018 23:57:24 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -15,11 +15,12 @@
         <description>  &lt;p&gt;Dona.me es un proyecto inhouse de Vexilo en proceso. Consiste en una plataforma donde individuos, grupos y organizaciones sociales puedan recibir donaciones para un proyecto o causa.&lt;/p&gt;
 
   &lt;h2&gt;El reto&lt;/h2&gt;
-  &lt;p&gt;La plataforma está enfocada a dos tipos de usuarios: &lt;/p&gt;
+  &lt;p&gt;Pensamos en una plataforma para dos tipos de usuarios: &lt;/p&gt;
   &lt;ul&gt;
-    &lt;li&gt;Los donatarios que no tienen fácil acceso a tecnologías de motores de pago y servicios de diseño web personalizado para inspirar confianza a sus donantes.&lt;/li&gt;
-    &lt;li&gt;Los donantes que no están familiarizados con los pagos en línea o les tienen desconfianza, pero creen en una causa y la quieren apoyar.&lt;/li&gt;
+    &lt;li&gt;Las personas que necesitan conseguir donativos: Son conocedoras y apasionadas de su causa, pero cuentan con recursos limitados, por lo que se les dificulta acceder al uso de motores de pago y servicios de diseño web. Les gustaría tener un sitio web que represente su causa, en el que la prioridad sea inspirar confianza a sus visitantes y reducir la fricción de los métodos de pago tradicionales para quienes decidan donar.&lt;/li&gt;
+    &lt;li&gt;Las personas con intención de donar. Ya sea que crean firmemente en una causa o que busquen hacer una buena acción en general, estas personas quieren que su donativo vaya a buenas manos. Muchas no están familiarizadas con los pagos en línea o les tienen desconfianza, a algunas otras les interesa saber cómo se está ocupando su donativo.&lt;/li&gt;
   &lt;/ul&gt;
+  &lt;p&gt;Quisimos buscar una solución que no sólo llevara la funcionalidad de los pagos en línea a personas poco familiarizadas, sino que promoviera la comunicación, transparencia y rendición de cuentas entre las personas creadoras de las causas y sus donantes.&lt;/p&gt;
 
 &lt;div class=&quot;thumbnail-row&quot;&gt;
   &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
@@ -27,7 +28,7 @@
 &lt;/div&gt;
 
 &lt;h2&gt;La identidad&lt;/h2&gt;
-&lt;p&gt;Buscamos algo simple, que sirviera en diferentes contextos en la web&lt;/p&gt;
+&lt;p&gt;Queremos hacer crecer las causas que hospedamos y que ellas sean quienes dan vida a nuestra plataforma. Por ello buscamos una solución gráfica sólida, que hable de lo que hacemos, pero al mismo tiempo que sea adaptable a diferentes contextos visuales y paletas de colores.&lt;/p&gt;
 
 &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
 
@@ -76,7 +77,28 @@
     
       <item>
         <title>Limitum</title>
-        <description>![My helpful screenshot](post.cover_img)
+        <description>&lt;p&gt;Navegar el mundo de los créditos para iniciar o crecer una empresa puede consumir mucho tiempo valioso de los emprendedores, desde las llamadas iniciales, visitas a instituciones financieras y firma presencial de documentos. Limitum busca agilizar la comunicación entre emprendedores e instituciones realizando todos los trámites en línea desde un sólo lugar, permitiendo a los emprendedores comparar opciones de crédito y a las instituciones financieras acercarse a potenciales clientes de todo el país.&lt;/p&gt;
+&lt;p&gt;Este proyecto fue elaborado en Vexilo en colaboración estrecha con el cliente.&lt;/p&gt;
+
+&lt;h2&gt;El reto&lt;/h2&gt;
+&lt;p&gt;Limitum es una app con un proceso complejo, que requiere información de ambas partes (el solicitante y la institución) para completarse. Nuestros principales retos consistían en: &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Guiar al solicitante en todo el proceso de aplicación&lt;/li&gt;
+  &lt;li&gt;Facilitar la comunicación entre todas las partes&lt;/li&gt;
+  &lt;li&gt;Estandarizar la información de las solicitudes de crédito y los distintos cursos de acción una vez hecha la solicitud, para hacerla clara y digerible a los solicitantes.&lt;/li&gt;
+  &lt;li&gt;Controlar la mayor parte del proceso de aplicación y volverlo más sencillo y conveniente que acudir presencialmente a la institución.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;thumbnail-row&quot;&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;La plataforma&lt;/h2&gt;
+&lt;p&gt;...&lt;/p&gt;
+
+&lt;h2&gt;La página web&lt;/h2&gt;
+&lt;p&gt;...&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/es/2018/limitum/</link>

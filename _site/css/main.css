@@ -228,15 +228,21 @@ pre {
   .panel-top .panel-content {
     height: 30rem; }
 
-.panel-nav #menu {
-  display: none; }
-.panel-nav .nav {
+.panel-nav {
   display: flex;
-  flex-direction: column; }
-  .panel-nav .nav a {
-    color: #ffffff;
-    margin-top: 1rem;
-    margin-bottom: 1rem; }
+  flex-wrap: nowrap; }
+  .panel-nav #panel-nav-icon {
+    padding: 2rem; }
+  .panel-nav #menu {
+    display: none; }
+  .panel-nav .nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.25rem; }
+    .panel-nav .nav a {
+      color: #ffffff;
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem; }
 
 .panel-text {
   flex-grow: 1;
@@ -253,7 +259,6 @@ pre {
       max-width: 400px; } }
   @media all and (min-width: 839px) {
     .panel-home .panel-text {
-      width: 38%;
       padding-left: 3rem;
       padding-right: 3rem; } }
   @media all and (min-width: 1042px) {
@@ -261,7 +266,6 @@ pre {
       max-width: 380px; } }
   @media all and (min-width: 839px) {
     .panel-left .panel-text {
-      width: 25%;
       padding-left: 2rem;
       padding-right: 2rem; } }
   .panel-top .panel-text {
@@ -386,6 +390,10 @@ Contenido
     text-align: justify;
     font-size: 1.25rem;
     margin-bottom: 1.5rem; }
+  .content li, .post-content li {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-left: 1rem; }
 
 .gallery {
   display: flex;

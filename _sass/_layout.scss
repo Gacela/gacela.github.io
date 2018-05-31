@@ -139,6 +139,11 @@ $panel-left-width: 25%;
 }
 
 .panel-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  #panel-nav-icon{
+    padding: 2rem;
+  }
   #menu {
     display: none;
   }
@@ -146,10 +151,11 @@ $panel-left-width: 25%;
     // position: fixed;
     display:flex;
     flex-direction: column;
+    margin-top: 1.25rem;
     a {
       color: #ffffff;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem;
     }
   }
 }
@@ -162,7 +168,6 @@ $panel-left-width: 25%;
                 max-width: 400px;
               }
               @include media-query($tablet) {
-                width: $panel-home-width;
                 padding-left: 3rem;
                 padding-right: 3rem;
               }
@@ -174,7 +179,6 @@ $panel-left-width: 25%;
                 max-width: 380px;
               }
               @include media-query($tablet) {
-                width: $panel-left-width;
                 padding-left: 2rem;
                 padding-right: 2rem;
               }
@@ -385,6 +389,11 @@ Contenido
     text-align: justify;
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
+  }
+  li {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-left:1rem;
   }
 }
 
