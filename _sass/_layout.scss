@@ -277,26 +277,85 @@ $text-display-light: "Nexa Light";
     border-color: $magenta-light;
   }
 
-.thumbnail {
+.thumbnail, .main-thumbnail{
   min-height: 300px;
   background-size: cover;
+  background-position: center;
   // margin: 0.5rem;
-  .thumbnail-row & {
-    width: 45%;
-  }
 }
 
 .thumbnail-row {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: $grey-color-light;
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  .thumbnail {
+      width:95%;
+      padding-top: 1080px / 1440px * 95%;
+      @include media-query($tablet) {
+        width: 48%;
+        padding-top: 1080px / 1440px * 48%;
+      }
+      margin-top:1rem;
+      margin-bottom:1rem;
+      border-radius: 5px;
+  }
+
+  .main-thumbnail{
+    width:95%;
+    padding-top: 1080px / 1440px * 95%;
+    @include media-query($tablet) {
+      width: 66%;
+      padding-top: 1080px / 1440px * 66%;
+    }
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border-radius: 5px;
+  }
+
+}
+
+.lightbox-opened {
+  background-color: #333;
+  background-color: rgba(#333, 0.9);
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  overflow-y: scroll;
+  padding: 24px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+
+  &:before {
+    background-color: #333;
+    background-color: rgba(#333, 0.9);
+    color: #eee;
+    content: "x";
+    font-family: sans-serif;
+    padding: 6px 12px;
+    position: fixed;
+    text-transform: uppercase;
+  }
+
+  img {
+    box-shadow: 0 0 6px 3px #333;
+    background-color: #fff;
+  }
+}
+
+// No Background Scroll
+
+.no-scroll {
+  overflow: hidden;
 }
 
 .shadow-block {

@@ -317,23 +317,70 @@ pre {
   color: #a469c1;
   border-color: #a469c1; }
 
-.thumbnail {
+.thumbnail, .main-thumbnail {
   min-height: 300px;
-  background-size: cover; }
-  .thumbnail-row .thumbnail {
-    width: 45%; }
+  background-size: cover;
+  background-position: center; }
 
 .thumbnail-row {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #e8e8e8;
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
+  .thumbnail-row .thumbnail {
+    width: 95%;
+    padding-top: 71.25%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px; }
+    @media all and (min-width: 839px) {
+      .thumbnail-row .thumbnail {
+        width: 48%;
+        padding-top: 36%; } }
+  .thumbnail-row .main-thumbnail {
+    width: 95%;
+    padding-top: 71.25%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px; }
+    @media all and (min-width: 839px) {
+      .thumbnail-row .main-thumbnail {
+        width: 66%;
+        padding-top: 49.5%; } }
+
+.lightbox-opened {
+  background-color: #333;
+  background-color: rgba(51, 51, 51, 0.9);
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  overflow-y: scroll;
+  padding: 24px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%; }
+  .lightbox-opened:before {
+    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: #eee;
+    content: "x";
+    font-family: sans-serif;
+    padding: 6px 12px;
+    position: fixed;
+    text-transform: uppercase; }
+  .lightbox-opened img {
+    box-shadow: 0 0 6px 3px #333;
+    background-color: #fff; }
+
+.no-scroll {
+  overflow: hidden; }
 
 .shadow-block {
   box-shadow: 4px 4px 0px rgba(112, 57, 139, 0.25); }
