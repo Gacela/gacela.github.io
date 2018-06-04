@@ -12,8 +12,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #111;
-  background-color: #fdfdfd;
+  color: #403f57;
+  background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -72,8 +72,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
+  color: #848392;
+  border-left: 4px solid #f4f4f7;
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
@@ -87,7 +87,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #f4f4f7;
   border-radius: 3px;
   background-color: #eef; }
 
@@ -114,7 +114,7 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #828282; }
+    fill: #848392; }
 
 .panel {
   z-index: -1;
@@ -327,18 +327,14 @@ pre {
   margin-bottom: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #e8e8e8;
+  background-color: #f4f4f7;
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
-  .thumbnail-row .thumbnail, .thumbnail-row .main-thumbnail {
-    min-height: 300px; }
-    @media all and (min-width: 839px) {
-      .thumbnail-row .thumbnail, .thumbnail-row .main-thumbnail {
-        min-height: 500px; } }
   .thumbnail-row .thumbnail {
+    min-height: 300px;
     width: 95%;
     padding-top: 71.25%;
     margin-top: 1rem;
@@ -347,17 +343,20 @@ pre {
     @media all and (min-width: 839px) {
       .thumbnail-row .thumbnail {
         width: 48%;
-        padding-top: 36%; } }
+        padding-top: 36%;
+        min-height: 500px; } }
   .thumbnail-row .main-thumbnail {
+    min-height: 300px;
     width: 95%;
-    padding-top: 71.25%;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px; }
     @media all and (min-width: 839px) {
       .thumbnail-row .main-thumbnail {
         width: 66%;
-        padding-top: 49.5%; } }
+        min-height: 500px; } }
+    .thumbnail-row .main-thumbnail img {
+      width: 100%; }
 
 .lightbox-opened {
   background-color: #333;

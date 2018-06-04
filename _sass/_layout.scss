@@ -296,19 +296,15 @@ $text-display-light: "Nexa Light";
   flex-wrap: wrap;
   justify-content: space-around;
 
-  .thumbnail, .main-thumbnail {
-    min-height: 300px;
-    @include media-query($tablet) {
-      min-height: 500px;
-    }
-  }
 
   .thumbnail {
+    min-height: 300px;
       width:95%;
       padding-top: 1080px / 1440px * 95%;
       @include media-query($tablet) {
         width: 48%;
         padding-top: 1080px / 1440px * 48%;
+        min-height: 500px;
       }
       margin-top:1rem;
       margin-bottom:1rem;
@@ -316,15 +312,18 @@ $text-display-light: "Nexa Light";
   }
 
   .main-thumbnail{
+    min-height: 300px;
     width:95%;
-    padding-top: 1080px / 1440px * 95%;
     @include media-query($tablet) {
       width: 66%;
-      padding-top: 1080px / 1440px * 66%;
+      min-height: 500px;
     }
     margin-top:1rem;
     margin-bottom:1rem;
     border-radius: 5px;
+    img {
+      width: 100%;
+    }
   }
 
 }

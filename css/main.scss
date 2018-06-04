@@ -16,15 +16,20 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
 $magenta: #8D48AF;
 $magenta-light: lighten($magenta, 10%);
 $magenta-dark: darken($magenta, 10%);
 $magenta-shadow: fade-out($magenta-dark, 0.5);
 $purple: #6A66AF;
 $teal: #5188B6;
+
+$grey-color: desaturate($purple, 25%);
+$grey-color-light: lighten(desaturate($purple, 15%), 42%);
+$grey-color-dark:  darken(desaturate($purple, 15%), 25%);
+
+$text-color:       $grey-color-dark;
+$background-color: #fff;
+$brand-color:      $magenta;
 
 // Breakpoints/max widths
 
