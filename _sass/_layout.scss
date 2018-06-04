@@ -277,7 +277,7 @@ $text-display-light: "Nexa Light";
     border-color: $magenta-light;
   }
 
-.thumbnail, .main-thumbnail{
+.thumbnail{
   min-height: 300px;
   background-size: cover;
   background-position: center;
@@ -295,6 +295,13 @@ $text-display-light: "Nexa Light";
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  .thumbnail, .main-thumbnail {
+    min-height: 300px;
+    @include media-query($tablet) {
+      min-height: 500px;
+    }
+  }
 
   .thumbnail {
       width:95%;

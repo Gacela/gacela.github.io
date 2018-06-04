@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Jun 2018 21:54:45 +0000</pubDate>
-    <lastBuildDate>Sun, 03 Jun 2018 21:54:45 +0000</lastBuildDate>
+    <pubDate>Sun, 03 Jun 2018 15:49:16 -0500</pubDate>
+    <lastBuildDate>Sun, 03 Jun 2018 15:49:16 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -44,7 +44,7 @@
 &lt;h2&gt;La web app&lt;/h2&gt;
 &lt;p&gt;Buscamos algo simple, que sirviera en diferentes contextos en la web&lt;/p&gt;
 </description>
-        <pubDate>Fri, 23 Mar 2018 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/2018/doname</link>
         <guid isPermaLink="true">http://localhost:4000/2018/doname</guid>
         
@@ -67,7 +67,7 @@
         <title>Vexilo</title>
         <description>&lt;p&gt;&lt;img src=&quot;post.cover_img&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 23 Mar 2018 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/en/2018/vexilo/</link>
         <guid isPermaLink="true">http://localhost:4000/en/2018/vexilo/</guid>
         
@@ -101,7 +101,7 @@
 &lt;h2&gt;La página web&lt;/h2&gt;
 &lt;p&gt;...&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 01 Nov 2017 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/es/2018/limitum/</link>
         <guid isPermaLink="true">http://localhost:4000/es/2018/limitum/</guid>
         
@@ -118,7 +118,7 @@
         <title>MiCochinito</title>
         <description>![My helpful screenshot](post.cover_img)
 </description>
-        <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 01 Aug 2017 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/es/2018/micochinito/</link>
         <guid isPermaLink="true">http://localhost:4000/es/2018/micochinito/</guid>
         
@@ -135,7 +135,7 @@
         <title>Vexilo</title>
         <description>![My helpful screenshot](post.cover_img)
 </description>
-        <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 01 Dec 2016 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/es/2018/vexilo/</link>
         <guid isPermaLink="true">http://localhost:4000/es/2018/vexilo/</guid>
         
@@ -167,7 +167,7 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 02 Jan 2016 16:28:54 +0000</pubDate>
+        <pubDate>Sat, 02 Jan 2016 10:28:54 -0600</pubDate>
         <link>http://localhost:4000/jekyll/update/2016/01/02/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/01/02/welcome-to-jekyll.html</guid>
         
