@@ -317,10 +317,24 @@ pre {
   color: #a469c1;
   border-color: #a469c1; }
 
-.thumbnail {
+.thumbnail, .thumbnail-screenshot {
   min-height: 300px;
-  background-size: cover;
+  background-size: cover; }
+
+.thumbnail {
   background-position: center; }
+
+.thumbnail-screenshot {
+  background-position: top; }
+
+.thumbnail-screenshot::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, transparent 0%, #f4f4f7 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: ''; }
 
 .thumbnail-row {
   margin-top: 2rem;
@@ -333,17 +347,19 @@ pre {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
-  .thumbnail-row .thumbnail {
-    min-height: 300px;
+  .thumbnail-row .thumbnail, .thumbnail-row .thumbnail-screenshot {
     width: 95%;
     padding-top: 71.25%;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px; }
     @media all and (min-width: 839px) {
-      .thumbnail-row .thumbnail {
+      .thumbnail-row .thumbnail, .thumbnail-row .thumbnail-screenshot {
         width: 48%;
         padding-top: 36%;
+        min-height: 500px; } }
+    @media all and (min-width: 839px) {
+      .thumbnail-row .thumbnail, .thumbnail-row .thumbnail-screenshot {
         min-height: 500px; } }
   .thumbnail-row .main-thumbnail {
     min-height: 300px;

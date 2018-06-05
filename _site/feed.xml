@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Jun 2018 00:39:33 -0500</pubDate>
-    <lastBuildDate>Mon, 04 Jun 2018 00:39:33 -0500</lastBuildDate>
+    <pubDate>Mon, 04 Jun 2018 22:18:35 -0500</pubDate>
+    <lastBuildDate>Mon, 04 Jun 2018 22:18:35 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -24,7 +24,9 @@
 
   &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
     &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
-    &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
+    &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/2-diagrama_donatario.png);&quot; href=http://localhost:4000/img/projects/doname/2-diagrama_donatario.png&gt;&lt;/a&gt;
+    &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/3-mapa.png);&quot; href=http://localhost:4000/img/projects/doname/3-mapa.png&gt;&lt;/a&gt;
+
   &lt;/div&gt;
 
 &lt;h2&gt;La identidad&lt;/h2&gt;
@@ -37,13 +39,19 @@
 
 &lt;h2&gt;Las ilustraciones&lt;/h2&gt;
 &lt;p&gt;Decidimos crear ilustraciones originales para representar a los usuarios que podrían encontrar útil nuestra plataforma&lt;/p&gt;
+&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/6-Illustracion.png);&quot; href=http://localhost:4000/img/projects/doname/6-Illustracion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/7-Illustracion.png);&quot; href=http://localhost:4000/img/projects/doname/7-Illustracion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/8-Illustracion.png);&quot; href=http://localhost:4000/img/projects/doname/8-Illustracion.png&gt;&lt;/a&gt;
+&lt;/div&gt;
+
 
 &lt;h2&gt;El producto final&lt;/h2&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/6-Home_doname.png);&quot; href=http://localhost:4000/img/projects/doname/6-Home_doname.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/7-Pagina_causa.png);&quot; href=http://localhost:4000/img/projects/doname/7-Pagina_causa.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/8-Formulario_donacion.png);&quot; href=http://localhost:4000/img/projects/doname/8-Formulario_donacion.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/9-Editar_4.png);&quot; href=http://localhost:4000/img/projects/doname/9-Editar_4.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/9-Home_doname.png);&quot; href=http://localhost:4000/img/projects/doname/6-Home_doname.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/10-Pagina_causa.png);&quot; href=http://localhost:4000/img/projects/doname/7-Pagina_causa.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/11-Formulario_donacion.png);&quot; href=http://localhost:4000/img/projects/doname/8-Formulario_donacion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/12-Editar_4.png);&quot; href=http://localhost:4000/img/projects/doname/9-Editar_4.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;!-- &lt;h2&gt;La web app&lt;/h2&gt;
