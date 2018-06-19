@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Jun 2018 00:10:04 -0500</pubDate>
-    <lastBuildDate>Tue, 19 Jun 2018 00:10:04 -0500</lastBuildDate>
+    <pubDate>Tue, 19 Jun 2018 00:29:13 -0500</pubDate>
+    <lastBuildDate>Tue, 19 Jun 2018 00:29:13 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -256,6 +256,27 @@
       </item>
     
       <item>
+        <title>CentiaCRM</title>
+        <description>&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/4-home.png);&quot; href=http://localhost:4000/img/projects/centia/4-home.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/5-pregunta.png);&quot; href=http://localhost:4000/img/projects/centia/5-pregunta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/6-resultado.png);&quot; href=http://localhost:4000/img/projects/centia/6-resultado.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/7-crm.png);&quot; href=http://localhost:4000/img/projects/centia/7-crm.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/8-precios.png);&quot; href=http://localhost:4000/img/projects/centia/8-precios.png&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 01 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/centia</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/centia</guid>
+        
+        <category>Identidad</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
         <title>CMI</title>
         <description>&lt;p&gt;Este es el lugar donde viven los trabajos de logotipos que he realizado para proyectos web o pequeñas empresas donde la identidad visual es parte importante del producto mínimo viable, pero no necesariamente lleva un trabajo de estrategia de marca detrás.&lt;/p&gt;
 
@@ -267,8 +288,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 01 Apr 2016 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2018/logofolio</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/logofolio</guid>
+        <link>http://localhost:4000/2018/cmi</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/cmi</guid>
         
         <category>Identidad</category>
         
