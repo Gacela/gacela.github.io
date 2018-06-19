@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Jun 2018 00:50:30 -0500</pubDate>
-    <lastBuildDate>Thu, 14 Jun 2018 00:50:30 -0500</lastBuildDate>
+    <pubDate>Tue, 19 Jun 2018 00:10:04 -0500</pubDate>
+    <lastBuildDate>Tue, 19 Jun 2018 00:10:04 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -17,6 +17,10 @@
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/1904.png);&quot; href=http://localhost:4000/img/projects/logofolio/1904_full.png&gt;&lt;/a&gt;
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/socialhive.png);&quot; href=http://localhost:4000/img/projects/logofolio/socialhive_full.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/allio.png);&quot; href=http://localhost:4000/img/projects/logofolio/allio_full.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/pepito.png);&quot; href=http://localhost:4000/img/projects/logofolio/pepito.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/adb.png);&quot; href=http://localhost:4000/img/projects/logofolio/adb.png&gt;&lt;/a&gt;
+
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 01 Apr 2018 00:00:00 -0600</pubDate>
@@ -27,8 +31,6 @@
         
         
         <category>project</category>
-        
-        <category>draft</category>
         
       </item>
     
@@ -175,17 +177,18 @@
 
 &lt;h2&gt;El lanzamiento&lt;/h2&gt;
 &lt;h3&gt;2015&lt;/h3&gt;
-&lt;p&gt;Desde la primera versión para MiCochinito ha sido importante recalcar su identidad mexicana. Dentro de la primera versión se nos proporcionó una paleta de colores brillantes, patrones de flores, y a &lt;i&gt;Chencho&lt;/i&gt; (la mascota de la plataforma), elementos que quisimos conservar e integrar.&lt;/p&gt;
+&lt;p&gt;Desde la primera versión para MiCochinito ha sido importante recalcar su identidad mexicana. Dentro de la primera versión se nos proporcionó una paleta de colores brillantes, patrones de flores, y la mascota de la plataforma, elementos que quisimos conservar e integrar.&lt;/p&gt;
 
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/2-diagrama_donatario.png);&quot; href=http://localhost:4000/img/projects/doname/2-diagrama_donatario.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/3-mapa.png);&quot; href=http://localhost:4000/img/projects/doname/3-mapa.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/1-v1_home.png);&quot; href=http://localhost:4000/img/projects/micochinito/1-v1_home.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/2-v1_proyecto.png);&quot; href=http://localhost:4000/img/projects/micochinito/2-v1_proyecto.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/3-v1_crear.png);&quot; href=http://localhost:4000/img/projects/micochinito/3-v1_crear.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/4-v1_apadrinar.png);&quot; href=http://localhost:4000/img/projects/micochinito/4-v1_apadrinar.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h2&gt;La madurez de la plataforma&lt;/h2&gt;
 &lt;h3&gt;2016&lt;/h3&gt;
-&lt;p&gt;A partir de un replanteamiento en el modelo de negocio y de feedback de los usuarios se creó una segunda versión, con un rediseño completo de la plataforma y nuevas funcionalidades.&lt;/p&gt;
+&lt;p&gt;A partir de un replanteamiento en el modelo de negocio se creó una segunda versión, con un rediseño completo de la plataforma y nuevas funcionalidades.&lt;/p&gt;
 &lt;p&gt;El trabajo se concentró principalmente las siguientes áreas:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Dar a conocer los nuevos servicios que ofrece MiCochinito como agencia.&lt;/li&gt;
@@ -194,9 +197,24 @@
 &lt;/ul&gt;
 
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/2-diagrama_donatario.png);&quot; href=http://localhost:4000/img/projects/doname/2-diagrama_donatario.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/3-mapa.png);&quot; href=http://localhost:4000/img/projects/doname/3-mapa.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/5-v2_home.png);&quot; href=http://localhost:4000/img/projects/micochinito/5-v2_home.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/6-v2_emprendedores.png);&quot; href=http://localhost:4000/img/projects/micochinito/6-v2_emprendedores.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/7-v2_proyecto.png);&quot; href=http://localhost:4000/img/projects/micochinito/7-v2_proyecto.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/8-v2_crear.gif);&quot; href=http://localhost:4000/img/projects/micochinito/8-v2_crear.gif&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/9-v2_crear.png);&quot; href=http://localhost:4000/img/projects/micochinito/9-v2_crear.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/10-v2_apadrinar.png);&quot; href=http://localhost:4000/img/projects/micochinito/10-v2_apadrinar.png&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Feedback y más iteraciones&lt;/h2&gt;
+&lt;h3&gt;2017&lt;/h3&gt;
+&lt;p&gt;Gracias a la empatía y comunicación de MiCochinito con sus usuarios logramos tener feedback y recomendaciones de usabilidad para mejorar varias funciones de la plataforma y solicitar datos relevantes al usuario en el momento que se requieren. También se ilustró una seriede cochinitos para usar como fotos de perfil&lt;/p&gt;
+
+&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/11-v3_proyecto.png);&quot; href=http://localhost:4000/img/projects/micochinito/11-v3_proyecto.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/12-v3_crear.png);&quot; href=http://localhost:4000/img/projects/micochinito/12-v3_crear.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/13-v3_crear.png);&quot; href=http://localhost:4000/img/projects/micochinito/13-v3_crear.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/14-v3_apadrinar.png);&quot; href=http://localhost:4000/img/projects/micochinito/14-v3_apadrinar.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/15-v3_perfil.png);&quot; href=http://localhost:4000/img/projects/micochinito/15-v3_perfil.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 01 Aug 2017 00:00:00 -0500</pubDate>
@@ -211,8 +229,6 @@
         <category>project</category>
         
         <category>case study</category>
-        
-        <category>draft</category>
         
       </item>
     

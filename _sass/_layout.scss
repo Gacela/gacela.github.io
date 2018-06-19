@@ -282,7 +282,22 @@ $text-display-light: "Nexa Light";
     background-size: cover;
   }
 
-.thumbnai, .small-thumbnail{
+  .thumbnail-placeholder {
+    background: $magenta; /* Old browsers */
+    background: $panel-gradient-firefox;
+    background: $panel-gradient-chrome;
+    background: $panel-gradient;
+    filter: $panel-gradient-IE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: $text-display-light;
+    font-size: 4rem;
+    text-shadow: 2px 2px 0px $magenta-shadow;
+  }
+
+.thumbnail, .small-thumbnail{
   background-position: center;
 }
 
