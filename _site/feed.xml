@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Jun 2018 00:29:13 -0500</pubDate>
-    <lastBuildDate>Tue, 19 Jun 2018 00:29:13 -0500</lastBuildDate>
+    <pubDate>Tue, 19 Jun 2018 17:05:55 -0500</pubDate>
+    <lastBuildDate>Tue, 19 Jun 2018 17:05:55 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -258,6 +258,8 @@
       <item>
         <title>CentiaCRM</title>
         <description>&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/1-identidad.png);&quot; href=http://localhost:4000/img/projects/centia/1-identidad.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/2-iconos.png);&quot; href=http://localhost:4000/img/projects/centia/2-iconos.png&gt;&lt;/a&gt;
   &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/4-home.png);&quot; href=http://localhost:4000/img/projects/centia/4-home.png&gt;&lt;/a&gt;
   &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/5-pregunta.png);&quot; href=http://localhost:4000/img/projects/centia/5-pregunta.png&gt;&lt;/a&gt;
   &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/6-resultado.png);&quot; href=http://localhost:4000/img/projects/centia/6-resultado.png&gt;&lt;/a&gt;
