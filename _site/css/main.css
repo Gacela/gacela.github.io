@@ -231,7 +231,7 @@ pre {
 .panel-nav {
   display: flex;
   flex-wrap: nowrap; }
-  .panel-nav #panel-nav-icon {
+  .panel-nav .panel-icon {
     padding: 2rem; }
   .panel-nav #menu {
     display: none; }

@@ -4,6 +4,12 @@ $( document ).ready(function() {
       $( '#menu' ).toggle(400);
     }
   );
+  $("#panel-back-icon").click(
+    function() {
+      parent.history.back();
+      return false;
+    }
+  );
 
     // Open Lightbox
     $('.lightbox > a').on('click', function(e) {
@@ -18,5 +24,5 @@ $( document ).ready(function() {
       $('html').removeClass('no-scroll');
       $('.lightbox-opened').remove();
     });
-    
+
 });
