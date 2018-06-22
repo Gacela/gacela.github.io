@@ -270,6 +270,12 @@ $text-display-light: "Nexa Light";
   border-radius: 0.25rem;
   border-color: $magenta;
   white-space: nowrap;
+  form & {
+    background-color: #fff;
+  }
+  svg {
+    padding-top: 0.5rem;
+  }
 }
 
 .button:hover {
@@ -567,4 +573,39 @@ Contenido
   min-height: 500px;
   margin-left: 2rem;
   margin-bottom: 2rem;
+}
+
+.form {
+    .input{
+    background-color: #fff;
+    color: $text-color;
+    padding: 0.75rem 1rem 0.5rem 1rem;
+    border-width: 2px;
+    border-radius: 0.25rem;
+    border-color: $magenta;
+    width: 100%;
+    z-index: 1;
+    @include media-query($tablet) {
+        max-width:460px;
+    }
+  }
+  .label {
+    width: auto;
+    z-index: 10;
+    margin-bottom: -0.75rem;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    label {
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+      background-color: #fff;
+    }
+  }
+  button{
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  .label, button, input, textarea {
+    display: block;
+  }
 }

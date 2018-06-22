@@ -312,6 +312,10 @@ pre {
   border-radius: 0.25rem;
   border-color: #8D48AF;
   white-space: nowrap; }
+  form .button {
+    background-color: #fff; }
+  .button svg {
+    padding-top: 0.5rem; }
 
 .button:hover {
   color: #a469c1;
@@ -539,6 +543,34 @@ Contenido
   min-height: 500px;
   margin-left: 2rem;
   margin-bottom: 2rem; }
+
+.form .input {
+  background-color: #fff;
+  color: #403f57;
+  padding: 0.75rem 1rem 0.5rem 1rem;
+  border-width: 2px;
+  border-radius: 0.25rem;
+  border-color: #8D48AF;
+  width: 100%;
+  z-index: 1; }
+  @media all and (min-width: 839px) {
+    .form .input {
+      max-width: 460px; } }
+.form .label {
+  width: auto;
+  z-index: 10;
+  margin-bottom: -0.75rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem; }
+  .form .label label {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    background-color: #fff; }
+.form button {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem; }
+.form .label, .form button, .form input, .form textarea {
+  display: block; }
 
 /**
  * Syntax highlighting styles
