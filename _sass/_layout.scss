@@ -218,11 +218,12 @@ $panel-left-width: 25%;
             line-height: 1.25;
 
           .text-display-light{
-            text-shadow: 2px 2px 0px $magenta-shadow;
+            text-shadow: 2px 2px 0px $magenta-shadow, 4px 4px 24px fade-out($magenta-shadow, 0.1
+            );
           }
 
           .text-display-bold{
-            text-shadow: 3px 3px 0px $magenta-shadow;
+            text-shadow: 3px 3px 0px $magenta-shadow, 4px 4px 24px fade-out($magenta-shadow, 0.1);
           }
 
         }
@@ -279,8 +280,7 @@ $text-display-light: "Nexa Light";
 }
 
 .button:hover {
-    color:$magenta-light;
-    border-color: $magenta-light;
+    box-shadow: 4px 4px 24px fade-out($magenta-shadow, 0.1);
   }
 
   .thumbnail, .thumbnail-screenshot, .small-thumbnail {
@@ -431,9 +431,12 @@ $text-display-light: "Nexa Light";
 }
 
 .shadow-block {
-    box-shadow: 4px 4px 0px fade-out($magenta-shadow, 0.25);
+    box-shadow: 4px 4px 0px fade-out($magenta-shadow, 0.25), 4px 4px 24px fade-out($magenta-shadow, 0.1);
   }
 
+.shadow-soft {
+      box-shadow: 4px 4px 24px fade-out($magenta-shadow, 0.1);
+    }
 /**
 nav
 **/
@@ -540,9 +543,12 @@ Contenido
   .gallery-card {
     @include media-query($tablet) {
         width:48%;
+        .thumbnail {
+          min-height: 400px;
+        }
     }
     @include media-query($desktop) {
-        max-width:390px;
+        max-width:600px;
     }
     width:100%;
     border-radius: 0.25rem;

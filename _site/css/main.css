@@ -278,9 +278,9 @@ pre {
     .panel-text {
       margin-bottom: 5.5rem; } }
   .panel-text .text-display-light {
-    text-shadow: 2px 2px 0px rgba(112, 57, 139, 0.5); }
+    text-shadow: 2px 2px 0px rgba(112, 57, 139, 0.5), 4px 4px 24px rgba(112, 57, 139, 0.4); }
   .panel-text .text-display-bold {
-    text-shadow: 3px 3px 0px rgba(112, 57, 139, 0.5); }
+    text-shadow: 3px 3px 0px rgba(112, 57, 139, 0.5), 4px 4px 24px rgba(112, 57, 139, 0.4); }
 
 @font-face {
   font-family: 'Nexa Bold';
@@ -318,8 +318,7 @@ pre {
     padding-top: 0.5rem; }
 
 .button:hover {
-  color: #a469c1;
-  border-color: #a469c1; }
+  box-shadow: 4px 4px 24px rgba(112, 57, 139, 0.4); }
 
 .thumbnail, .thumbnail-screenshot, .small-thumbnail {
   min-height: 300px;
@@ -444,7 +443,10 @@ pre {
   overflow: hidden; }
 
 .shadow-block {
-  box-shadow: 4px 4px 0px rgba(112, 57, 139, 0.25); }
+  box-shadow: 4px 4px 0px rgba(112, 57, 139, 0.25), 4px 4px 24px rgba(112, 57, 139, 0.4); }
+
+.shadow-soft {
+  box-shadow: 4px 4px 24px rgba(112, 57, 139, 0.4); }
 
 /**
 nav
@@ -519,10 +521,12 @@ Contenido
     background-color: white; }
     @media all and (min-width: 839px) {
       .gallery .gallery-card {
-        width: 48%; } }
+        width: 48%; }
+        .gallery .gallery-card .thumbnail {
+          min-height: 400px; } }
     @media all and (min-width: 1042px) {
       .gallery .gallery-card {
-        max-width: 390px; } }
+        max-width: 600px; } }
     .gallery .gallery-card .thumbnail {
       border-top-left-radius: .25rem;
       border-top-right-radius: .25rem; }
