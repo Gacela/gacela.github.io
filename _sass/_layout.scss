@@ -9,6 +9,14 @@ $panel-top-bg-width: 115% - $panel-top-width;
 $panel-home-width: 38%;
 $panel-left-width: 25%;
 
+.gradient {
+  background: $magenta; /* Old browsers */
+  background: $panel-gradient-firefox;
+  background: $panel-gradient-chrome;
+  background: $panel-gradient;
+  filter: $panel-gradient-IE;
+}
+
 .panel {
   z-index: -1;
   display: none;

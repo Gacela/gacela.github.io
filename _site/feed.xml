@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Jun 2018 23:38:59 -0500</pubDate>
-    <lastBuildDate>Fri, 22 Jun 2018 23:38:59 -0500</lastBuildDate>
+    <pubDate>Sat, 23 Jun 2018 00:49:30 -0500</pubDate>
+    <lastBuildDate>Sat, 23 Jun 2018 00:49:30 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -217,7 +217,7 @@
   &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/15-v3_perfil.png);&quot; href=http://localhost:4000/img/projects/micochinito/15-v3_perfil.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Tue, 01 Aug 2017 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/es/2018/micochinito/</link>
         <guid isPermaLink="true">http://localhost:4000/es/2018/micochinito/</guid>
         
