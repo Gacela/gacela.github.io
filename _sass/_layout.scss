@@ -472,6 +472,9 @@ nav
 Contenido
 **/
 .content {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: 2rem;
   @include media-query($tablet) {
     // Propiedades desktop
     padding-left: 3rem;
