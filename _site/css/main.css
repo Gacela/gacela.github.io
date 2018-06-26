@@ -161,11 +161,11 @@ pre {
   .panel-top .panel {
     display: block;
     position: absolute;
-    top: 15rem;
+    top: 0;
     height: 25rem;
     width: 100%;
-    -webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%);
-    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%); }
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%); }
     @media all and (min-width: 839px) {
       .panel-top .panel {
         -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
@@ -258,7 +258,7 @@ pre {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 2rem;
+  padding: 0rem 2rem 2rem 2rem;
   color: #FFF;
   text-transform: uppercase;
   line-height: 1.25; }
@@ -278,7 +278,7 @@ pre {
       padding-right: 2rem; } }
   .panel-top .panel-text {
     width: 100%;
-    flex-grow: 1; }
+    flex-grow: 0; }
     @media all and (min-width: 839px) {
       .panel-top .panel-text {
         width: 40%; } }
@@ -373,6 +373,20 @@ pre {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
+  .thumbnail-row .image {
+    text-align: center;
+    width: 95%;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px; }
+    @media all and (min-width: 839px) {
+      .thumbnail-row .image {
+        width: 48%;
+        height: 500px; } }
+    @media all and (min-width: 1999px) {
+      .thumbnail-row .image {
+        width: 31%; } }
   .thumbnail-row .thumbnail, .thumbnail-row .thumbnail-screenshot {
     width: 95%;
     padding-top: 71.25%;
@@ -462,21 +476,19 @@ nav
 /**
 Contenido
 **/
-.content {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-  padding-top: 2rem; }
-  @media all and (min-width: 839px) {
-    .content {
-      padding-left: 3rem;
-      padding-right: 3rem;
-      padding-top: 5rem; } }
-
 .post-content p, .post-content h1, .post-content h2, .post-content h3, .post-content ul {
   max-width: 840px; }
 
 .content, .post-content {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: 2rem;
   margin-bottom: 30px; }
+  @media all and (min-width: 839px) {
+    .content, .post-content {
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-top: 5rem; } }
   .content h2, .post-content h2 {
     font-size: 32px;
     margin-bottom: 1.5rem;
@@ -504,18 +516,22 @@ Contenido
         font-size: 18px; } }
   .content p, .content h1, .content h2, .content h3, .content ul, .post-content p, .post-content h1, .post-content h2, .post-content h3, .post-content ul {
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; }
+  .content p, .content h1, .content ul, .post-content p, .post-content h1, .post-content ul {
     line-height: 2; }
-    .content p.text-loose, .content h1.text-loose, .content h2.text-loose, .content h3.text-loose, .content ul.text-loose, .post-content p.text-loose, .post-content h1.text-loose, .post-content h2.text-loose, .post-content h3.text-loose, .post-content ul.text-loose {
+    .content p.text-loose, .content h1.text-loose, .content ul.text-loose, .post-content p.text-loose, .post-content h1.text-loose, .post-content ul.text-loose {
       line-height: 2.25; }
   .content p, .content ul, .content li, .post-content p, .post-content ul, .post-content li {
     text-align: justify;
     font-size: 1.25rem;
     margin-bottom: 1.5rem; }
   .content li, .post-content li {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 2rem;
     padding-left: 1rem; }
+    @media all and (min-width: 839px) {
+      .content li, .post-content li {
+        margin-left: 4rem;
+        margin-right: 4rem; } }
 
 .gallery {
   display: flex;
