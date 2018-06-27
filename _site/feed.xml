@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jun 2018 08:21:34 -0500</pubDate>
-    <lastBuildDate>Wed, 27 Jun 2018 08:21:34 -0500</lastBuildDate>
+    <pubDate>Wed, 27 Jun 2018 11:25:11 -0500</pubDate>
+    <lastBuildDate>Wed, 27 Jun 2018 11:25:11 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -17,6 +17,7 @@
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/1904.png);&quot; href=http://localhost:4000/img/projects/logofolio/1904_full.png&gt;&lt;/a&gt;
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/socialhive.png);&quot; href=http://localhost:4000/img/projects/logofolio/socialhive_full.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/kilauea.png);&quot; href=http://localhost:4000/img/projects/logofolio/kilauea.png&gt;&lt;/a&gt;
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/allio.png);&quot; href=http://localhost:4000/img/projects/logofolio/allio_full.png&gt;&lt;/a&gt;
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/pepito.png);&quot; href=http://localhost:4000/img/projects/logofolio/pepito.png&gt;&lt;/a&gt;
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/adb.png);&quot; href=http://localhost:4000/img/projects/logofolio/adb.png&gt;&lt;/a&gt;
@@ -59,7 +60,7 @@
 &lt;a class=&quot;main-thumbnail&quot; href=http://localhost:4000/img/projects/doname/3-identidad.png&gt;&lt;img src=&quot;http://localhost:4000/img/projects/doname/3-identidad.png&quot;&gt;&lt;/a&gt;
 &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/4-reticula.png);&quot; href=http://localhost:4000/img/projects/doname/4-reticula.png&gt;&lt;/a&gt;
 &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/5-isotipo.png);&quot; href=http://localhost:4000/img/projects/doname/5-isotipo.png&gt;&lt;/a&gt;
-&lt;a class=&quot;image&quot; href=http://localhost:4000/img/projects/doname/5-isotipo.png&gt;
+&lt;a class=&quot;image&quot;&gt;
   &lt;link rel=&quot;stylesheet&quot; href=&quot;/files/animacion_doname/animacionloop.css&quot;&gt;
   &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
   &lt;svg
@@ -180,8 +181,8 @@
     
       <item>
         <title>Macadamia</title>
-        <description>&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;main-thumbnail&quot; href=http://localhost:4000/img/projects/macadamia/1-macadamia.mp4&gt;
+        <description>&lt;div class=&quot;thumbnail-row&quot;&gt;
+  &lt;a class=&quot;main-thumbnail&quot; href=&quot;http://macadamia.com.mx&quot; target=&quot;_blank&quot;&gt;
     &lt;video autoplay muted loop id=&quot;videoMacadamia&quot;&gt;
   &lt;source src=&quot;/img/projects/macadamia/1-macadamia.mp4&quot; type=&quot;video/mp4&quot;&gt;
 &lt;/video&gt;
@@ -372,12 +373,52 @@
       <item>
         <title>CMI</title>
         <description>&lt;h2&gt;El lanzamiento&lt;/h2&gt;
-&lt;h3&gt;2014&lt;/h3&gt;
+&lt;h3&gt;2013&lt;/h3&gt;
+&lt;p&gt;Primeras propuestas&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/2-diagrama_donatario.png);&quot; href=http://localhost:4000/img/projects/doname/2-diagrama_donatario.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/3-mapa.png);&quot; href=http://localhost:4000/img/projects/doname/3-mapa.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/1-propuesta.png);&quot; href=http://localhost:4000/img/projects/cmi/1-propuesta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/2-propuesta.png);&quot; href=http://localhost:4000/img/projects/cmi/2-propuesta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/3-propuesta.gif);&quot; href=http://localhost:4000/img/projects/cmi/3-propuesta.gif&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Ilustraciones&lt;/p&gt;
+&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;main-thumbnail&quot; href=http://localhost:4000/img/projects/cmi/4-ilustraciones.png&gt;&lt;img src=&quot;http://localhost:4000/img/projects/cmi/4-ilustraciones.png&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Producto final&lt;/p&gt;
+&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/7-home.png);&quot; href=http://localhost:4000/img/projects/cmi/7-home.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/8-cmovil.png);&quot; href=http://localhost:4000/img/projects/cmi/8-cmovil.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/9-mediosalternos.png);&quot; href=http://localhost:4000/img/projects/cmi/9-mediosalternos.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/10-nosotros.png);&quot; href=http://localhost:4000/img/projects/cmi/10-nosotros.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/11-aeropuertos.png);&quot; href=http://localhost:4000/img/projects/cmi/11-aeropuertos.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/12-macrobus.png);&quot; href=http://localhost:4000/img/projects/cmi/12-macrobus.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/13-movil.png);&quot; href=http://localhost:4000/img/projects/cmi/13-movil.png&gt;&lt;/a&gt;
+&lt;/div&gt;
 
+&lt;h2&gt;El rediseño&lt;/h2&gt;
+&lt;h3&gt;2016&lt;/h3&gt;
+&lt;p&gt;Wireframes&lt;/p&gt;
+&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/14-wireframe.png);&quot; href=http://localhost:4000/img/projects/cmi/14-wireframe.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/15-wireframe.png);&quot; href=http://localhost:4000/img/projects/cmi/15-wireframe.png&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Primeras propuestas&lt;/p&gt;
+&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/16-propuesta.png);&quot; href=http://localhost:4000/img/projects/cmi/16-propuesta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/17-propuesta.png);&quot; href=http://localhost:4000/img/projects/cmi/17-propuesta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/18-propuesta.png);&quot; href=http://localhost:4000/img/projects/cmi/18-propuesta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;main-thumbnail&quot; href=http://localhost:4000/img/projects/cmi/19-propuestafinal.png&gt;&lt;img src=&quot;http://localhost:4000/img/projects/cmi/19-propuestafinal.png&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Íconos&lt;/p&gt;
+&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;main-thumbnail&quot; href=http://localhost:4000/img/projects/cmi/20-iconos.png&gt;&lt;img src=&quot;http://localhost:4000/img/projects/cmi/20-iconos.png&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Producto final&lt;/p&gt;
+&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/22-home.jpg);&quot; href=http://localhost:4000/img/projects/cmi/22-home.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/23-futbol.png);&quot; href=http://localhost:4000/img/projects/cmi/23-futbol.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/24-noticias.png);&quot; href=http://localhost:4000/img/projects/cmi/24-noticias.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/25-casos.png);&quot; href=http://localhost:4000/img/projects/cmi/25-casos.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 01 Apr 2016 00:00:00 -0600</pubDate>
