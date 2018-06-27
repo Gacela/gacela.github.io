@@ -234,7 +234,8 @@ pre {
         width: auto;
         background: none; } }
   .panel-top .panel-content {
-    height: 30rem; }
+    height: 30rem;
+    justify-content: space-between; }
 
 .panel-nav {
   display: flex;
@@ -405,6 +406,7 @@ pre {
   .thumbnail-row .main-thumbnail {
     min-height: 300px;
     width: 95%;
+    text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px; }
@@ -486,8 +488,8 @@ Contenido
   margin-bottom: 30px; }
   @media all and (min-width: 839px) {
     .content, .post-content {
-      padding-left: 3rem;
-      padding-right: 3rem;
+      padding-left: 0rem;
+      padding-right: 0rem;
       padding-top: 5rem; } }
   .content h2, .post-content h2 {
     font-size: 32px;

@@ -139,6 +139,7 @@ $panel-left-width: 25%;
   }
   .panel-top &, {
     height: $panel-top-height;
+    justify-content: space-between;
   }
 
   display: flex;
@@ -382,6 +383,7 @@ $text-display-light: "Nexa Light";
   .main-thumbnail{
     min-height: 300px;
     width:95%;
+    text-align: center;
     @include media-query($tablet) {
       width: 66%;
       min-height: 500px;
@@ -499,8 +501,8 @@ Contenido
   padding-top: 2rem;
   @include media-query($tablet) {
     // Propiedades desktop
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     padding-top: 5rem;
   }
   h2 {

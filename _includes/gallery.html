@@ -1,27 +1,11 @@
 <div class="gallery">
-{% for post in site.categories[include.category] %}
-  {% if post.categories contains include.exclude %}
-    {% continue %}
-  {% else %}
+{% for post in site.categories[include.category] limit:include.limit %}
+  {% unless post.categories contains include.exclude %}
     {% if page.lang == post.lang %}
-      <a href="{{ post.url | absolute_url }}" class="gallery-card shadow-block">
-        {% if post.cover_img %}
-        <div class="thumbnail" style="background-image: url({{ post.cover_img | absolute_url }}); background-position: center;"></div>
-        {% else %}
-        <div class="thumbnail thumbnail-placeholder">{{ post.title }}</div>
-        {% endif %}
-        <!-- <h3 class="text-black">{{ post.title }}</h3>
-        <p class="text-sm text-grey">
-          {% for tag in post.tags %}
-            {{ tag }}
-            {% if forloop.last == true %}
-            {% else %}
-            <span>/</span>
-            {% endif %}
-          {% endfor %}
-        </p> -->
-      </a>
+
+{% include gallerycard.html %}
+
     {% endif %}
-  {% endif %}
+  {% endunless %}
 {% endfor %}
 </div>
