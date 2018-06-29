@@ -357,9 +357,10 @@ pre {
 .thumbnail-screenshot::after {
   display: block;
   position: relative;
+  bottom: 0px;
   background-image: linear-gradient(to bottom, transparent 0%, #f4f4f7 100%);
-  margin-top: -150px;
   height: 150px;
+  margin-top: -150px;
   width: 100%;
   content: ''; }
 
@@ -397,8 +398,7 @@ pre {
     @media all and (min-width: 839px) {
       .thumbnail-row .thumbnail, .thumbnail-row .thumbnail-screenshot {
         width: 48%;
-        padding-top: 36%;
-        min-height: 500px; } }
+        padding-top: 36%; } }
     @media all and (min-width: 1999px) {
       .thumbnail-row .thumbnail, .thumbnail-row .thumbnail-screenshot {
         width: 31%;
