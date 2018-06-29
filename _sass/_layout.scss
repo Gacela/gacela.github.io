@@ -139,7 +139,9 @@ $panel-left-width: 25%;
   }
   .panel-top &, {
     height: $panel-top-height;
-    justify-content: space-between;
+    @include media-query($tablet) {
+      justify-content: space-between;
+    }
   }
 
   display: flex;
@@ -322,9 +324,14 @@ $text-display-light: "Nexa Light";
 
 .thumbnail-screenshot::after {
   display: block;
+<<<<<<< HEAD
   position:relative;
 bottom: 0px;
     background-image: linear-gradient(to bottom, transparent 0%, $grey-color-light 100%);
+=======
+  position: relative;
+  background-image: linear-gradient(to bottom, transparent 0%, $grey-color-light 100%);
+>>>>>>> d1c997fdc8187d02f0242cd4929c552600678e55
   height: 150px;
   margin-top: -150px;
   width: 100%;
@@ -362,7 +369,7 @@ bottom: 0px;
   }
 
 
-  .thumbnail, .thumbnail-screenshot{
+  .thumbnail{
 
       width:95%;
       padding-top: 1080px / 1440px * 95%;
@@ -374,6 +381,24 @@ bottom: 0px;
       @include media-query($desktop-xl) {
         width: 31%;
         padding-top: 1080px / 1440px * 31%;
+      }
+      margin-top:1rem;
+      margin-bottom:1rem;
+      border-radius: 5px;
+
+  }
+
+.thumbnail-screenshot{
+
+      width:95%;
+      padding-top: 930px / 1440px * 95%;
+      @include media-query($tablet) {
+        width: 48%;
+        padding-top: 780px / 1440px * 48%;
+      }
+      @include media-query($desktop-xl) {
+        width: 31%;
+        padding-top: 630px / 1440px * 31%;
       }
       margin-top:1rem;
       margin-bottom:1rem;

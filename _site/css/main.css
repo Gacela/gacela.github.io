@@ -234,8 +234,10 @@ pre {
         width: auto;
         background: none; } }
   .panel-top .panel-content {
-    height: 30rem;
-    justify-content: space-between; }
+    height: 30rem; }
+    @media all and (min-width: 839px) {
+      .panel-top .panel-content {
+        justify-content: space-between; } }
 
 .panel-nav {
   display: flex;
@@ -389,20 +391,35 @@ pre {
     @media all and (min-width: 1999px) {
       .thumbnail-row .image {
         width: 31%; } }
-  .thumbnail-row .thumbnail, .thumbnail-row .thumbnail-screenshot {
+  .thumbnail-row .thumbnail {
     width: 95%;
     padding-top: 71.25%;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px; }
     @media all and (min-width: 839px) {
-      .thumbnail-row .thumbnail, .thumbnail-row .thumbnail-screenshot {
+      .thumbnail-row .thumbnail {
         width: 48%;
         padding-top: 36%; } }
     @media all and (min-width: 1999px) {
-      .thumbnail-row .thumbnail, .thumbnail-row .thumbnail-screenshot {
+      .thumbnail-row .thumbnail {
         width: 31%;
         padding-top: 23.25%; } }
+  .thumbnail-row .thumbnail-screenshot {
+    width: 95%;
+    padding-top: 61.3541666667%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px; }
+    @media all and (min-width: 839px) {
+      .thumbnail-row .thumbnail-screenshot {
+        width: 48%;
+        padding-top: 26%;
+        min-height: 500px; } }
+    @media all and (min-width: 1999px) {
+      .thumbnail-row .thumbnail-screenshot {
+        width: 31%;
+        padding-top: 13.5625%; } }
   .thumbnail-row .main-thumbnail {
     min-height: 300px;
     width: 95%;
