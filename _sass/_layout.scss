@@ -324,14 +324,10 @@ $text-display-light: "Nexa Light";
 
 .thumbnail-screenshot::after {
   display: block;
-<<<<<<< HEAD
   position:relative;
-bottom: 0px;
-    background-image: linear-gradient(to bottom, transparent 0%, $grey-color-light 100%);
-=======
+  bottom: 0px;
   position: relative;
   background-image: linear-gradient(to bottom, transparent 0%, $grey-color-light 100%);
->>>>>>> d1c997fdc8187d02f0242cd4929c552600678e55
   height: 150px;
   margin-top: -150px;
   width: 100%;
