@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Jun 2018 08:21:38 -0500</pubDate>
-    <lastBuildDate>Fri, 29 Jun 2018 08:21:38 -0500</lastBuildDate>
+    <pubDate>Wed, 04 Jul 2018 23:32:14 -0500</pubDate>
+    <lastBuildDate>Wed, 04 Jul 2018 23:32:14 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -20,7 +20,8 @@
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/kilauea.png);&quot; href=http://localhost:4000/img/projects/logofolio/kilauea.png&gt;&lt;/a&gt;
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/allio.png);&quot; href=http://localhost:4000/img/projects/logofolio/allio_full.png&gt;&lt;/a&gt;
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/pepito.png);&quot; href=http://localhost:4000/img/projects/logofolio/pepito.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/adb.png);&quot; href=http://localhost:4000/img/projects/logofolio/adb.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/adb.png);&quot; href=http://localhost:4000/img/projects/logofolio/adb2.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/cancion.png);&quot; href=http://localhost:4000/img/projects/logofolio/cancion.png&gt;&lt;/a&gt;
 
 &lt;/div&gt;
 </description>
@@ -371,6 +372,30 @@
       </item>
     
       <item>
+        <title>Ilustración</title>
+        <description>&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/bikeshirt2.jpg);&quot; href=http://localhost:4000/img/projects/ilustracion/bikeshirt2.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/asaroth1.jpg);&quot; href=http://localhost:4000/img/projects/ilustracion/asaroth2.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/margaroth.jpg);&quot; href=http://localhost:4000/img/projects/ilustracion/margaroth.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/carpas.jpg);&quot; href=http://localhost:4000/img/projects/ilustracion/carpas.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/censura.jpg);&quot; href=http://localhost:4000/img/projects/ilustracion/censura.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/self1.jpg);&quot; href=http://localhost:4000/img/projects/ilustracion/aself1.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/ajolote.png);&quot; href=http://localhost:4000/img/projects/ilustracion/ajolote.png&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 01 Apr 2016 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2016/ilustracion</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/ilustracion</guid>
+        
+        <category>Ilustración</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
         <title>CMI</title>
         <description>&lt;h2&gt;El lanzamiento&lt;/h2&gt;
 &lt;h3&gt;2013&lt;/h3&gt;
@@ -435,34 +460,6 @@
         <category>project</category>
         
         <category>draft</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 02 Jan 2016 10:28:54 -0600</pubDate>
-        <link>http://localhost:4000/jekyll/update/2016/01/02/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/01/02/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
