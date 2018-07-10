@@ -37,6 +37,10 @@ $desktop: 1042px;
 $tablet: 839px;
 $phone: 480px;
 
+//Text display
+$text-display-bold: "Nexa Bold";
+$text-display-light: "Nexa Light";
+
 
 // Use media queries like this:
 //
@@ -56,6 +60,7 @@ $phone: 480px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "panel",
         "layout",
         "syntax-highlighting"
 ;

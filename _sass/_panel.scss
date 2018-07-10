@@ -1,0 +1,364 @@
+$panel-gradient-firefox: -moz-linear-gradient(-45deg, $magenta 0%, $purple 50%, $teal 100%);
+$panel-gradient-chrome: -webkit-linear-gradient(-45deg, $magenta 0%,$purple 50%,$teal 100%);
+$panel-gradient: linear-gradient(135deg, $magenta 0%,$purple 50%,$teal 100%);
+$panel-gradient-IE: progid:DXImageTransform.Microsoft.gradient( startColorstr='$magenta', endColorstr='$teal',GradientType=1 );
+
+$panel-top-height: 30rem;
+$panel-top-width: 45%;
+$panel-top-bg-width: 115% - $panel-top-width;
+$panel-home-width: 38%;
+$panel-left-width: 25%;
+
+.gradient {
+  background: $magenta; /* Old browsers */
+  background: $panel-gradient-firefox;
+  background: $panel-gradient-chrome;
+  background: $panel-gradient;
+  filter: $panel-gradient-IE;
+}
+
+.panel {
+  z-index: -1;
+  display: none;
+  background: $magenta; /* Old browsers */
+  background: $panel-gradient-firefox;
+  background: $panel-gradient-chrome;
+  background: $panel-gradient;
+  filter: $panel-gradient-IE;
+
+    @include media-query($tablet) {
+    .panel-home &, .panel-left &{
+      display: block;
+      height: 100vh;
+      position: fixed;
+      top:0;
+      bottom:0;
+    }
+
+    .panel-home & {
+      @include media-query($desktop) {
+        max-width: 680px;
+      }
+      -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+      clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+      width: $panel-home-width;
+      left:-3rem;
+    }
+
+    .panel-left & {
+      @include media-query($desktop) {
+        max-width:420px;
+      }
+      -webkit-clip-path: polygon(0 0, 72% 0%, 100% 100%, 0% 100%);
+      clip-path: polygon(0 0, 72% 0%, 100% 100%, 0% 100%);
+      width: $panel-left-width;
+      left: 0rem;
+    }
+  }
+
+  .panel-top & {
+    display: block;
+    position: absolute;
+    top:0;
+    height: $panel-top-height - 8rem;
+    // max-height: 100vh;
+    width: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+    @include media-query($tablet) {
+      -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+      clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+      width: $panel-top-width;
+      height: $panel-top-height;
+      top: 0;
+      left:-3rem;
+    }
+  }
+}
+
+.panel-home {
+  @include media-query($desktop) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 600px;
+  }
+  @include media-query($tablet) {
+    width:33.3333%;
+  }
+  width: 100%;
+}
+
+.panel-left {
+  @include media-query($desktop) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 400px;
+  }
+  @include media-query($tablet) {
+    width:25%;
+  }
+  width: 100%;
+}
+
+.panel-top-bg {
+  height: $panel-top-height - 18rem;
+  width: 100%;
+  max-height: 100vh;
+  display: block;
+  position: absolute;
+  top: 18rem;
+  right: 0;
+  z-index: -2;
+  background-size: cover;
+  @include media-query($tablet) {
+    width: $panel-top-bg-width;
+    height: $panel-top-height;
+    top: 0;
+  }
+}
+
+.panel-content {
+  .panel-home &, .panel-left &{
+    //desktop
+    @include media-query($tablet) {
+      height: 100vh;
+      position: fixed;
+      top:0;
+      bottom:0;
+      width: auto;
+      background: none;
+    }
+    //mobile
+    width: 100%;
+    background: $magenta; /* Old browsers */
+    background: $panel-gradient-firefox;
+    background: $panel-gradient-chrome;
+    background: $panel-gradient;
+    filter: $panel-gradient-IE;
+  }
+  .panel-top &, {
+    height: $panel-top-height;
+    @include media-query($tablet) {
+      justify-content: space-between;
+    }
+  }
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.panel-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+  @include media-query($tablet) {
+    justify-content:flex-start;
+  }
+  .panel-icon{
+    padding: 1.5rem;
+    @include media-query($tablet) {
+      padding: 2rem;
+    }
+  }
+  #panel-back-icon{
+    order: 0;
+  }
+  #panel-nav-icon{
+    order: 2;
+  }
+  #menu {
+    display: none;
+    order: 1;
+    @include media-query($tablet) {
+      order: 3;
+    }
+  }
+  .nav {
+    // position: fixed;
+    display:flex;
+    flex-direction: column;
+    margin-top: 1.25rem;
+    a {
+      color: #ffffff;
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+  }
+}
+
+.panel-text {
+
+  #name {
+    font-family: $text-display-light;
+    text-shadow: 2px 2px 0px $magenta-shadow, 4px 4px 24px fade-out($magenta-shadow, 0.1);
+    @include media-query($tablet) {
+      width: 66.66667%;
+      padding-right: 2rem;
+    }
+  }
+
+  #ui {
+    font-family: $text-display-bold;
+    text-shadow: 3px 3px 0px $magenta-shadow, 4px 4px 24px fade-out($magenta-shadow, 0.1);
+    border-width: 2px;
+    border-radius: 0.25rem;
+    border-color: #fff;
+    margin-top: 1.5rem;
+  }
+
+  #plus {
+    font-family: $text-display-light;
+    text-shadow: 2px 2px 0px $magenta-shadow, 4px 4px 24px fade-out($magenta-shadow, 0.1);
+  }
+
+  #visual-design{
+    font-family: $text-display-bold;
+    text-shadow: 3px 3px 0px $magenta-shadow, 4px 4px 24px fade-out($magenta-shadow, 0.1);
+    @include media-query($tablet) {
+      width: 83.33333%;
+      padding-right: 2rem;
+    }
+  }
+
+            .panel-home & {
+              //xl screen
+              @include media-query($desktop) {
+                max-width: 400px;
+              }
+              @include media-query($tablet) {
+                padding-left: 3rem;
+                padding-right: 3rem;
+              }
+
+              #name {
+                font-size: 1.875rem;
+              }
+              #ui {
+                font-size: 3rem;
+                padding: 0.25rem 1.5rem 0rem 1.5rem;
+                line-height: 1;
+                @include media-query($tablet) {
+                  font-size: 4rem;
+                  padding: 1rem 2rem .5rem 2rem;
+                }
+              }
+              #plus {
+                font-size: 3rem;
+                padding-top: 1rem;
+                line-height: 1;
+                @include media-query($tablet) {
+                  font-size: 4rem;
+                }
+              }
+              #visual-design{
+                font-size: 3rem;
+                margin-top: .5rem;
+                @include media-query($tablet) {
+                  font-size: 4rem;
+                }
+              }
+            }
+
+            .panel-left & {
+              //xl screen
+              @include media-query($desktop) {
+                max-width: 380px;
+              }
+              @include media-query($tablet) {
+                padding-left: 2rem;
+                padding-right: 2rem;
+              }
+
+              #name {
+                font-size: 1.25rem;
+                @include media-query($tablet) {
+                  font-size: 1.875rem;
+                }
+              }
+              #ui {
+                font-size: 2rem;
+                padding: 0rem 1rem 0rem 1rem;
+                @include media-query($tablet) {
+                  font-size: 3rem;
+                  padding: 0.25rem 1.5rem 0rem 1.5rem;
+                }
+              }
+              #plus {
+                font-size: 2rem;
+                padding-top: 0.5rem;
+                @include media-query($tablet) {
+                  font-size: 3rem;
+                }
+              }
+              #visual-design{
+                font-size: 2rem;
+                @include media-query($tablet) {
+                  font-size: 3rem;
+                }
+              }
+            }
+
+            .panel-top & {
+              width: 100%;
+              flex-grow: 0;
+              // height: $panel-top-height - 10.5rem;
+              // margin-top: 12rem;
+              // margin-bottom: 3rem;
+              @include media-query($tablet) {
+                // margin-top: 0;
+                // margin-bottom: 0;
+                // padding-bottom: 5.5rem;
+                // height: $panel-top-height - 5.5rem;
+                width: $panel-top-width - 5%;
+              }
+              .post-title {
+                font-family: $text-display-bold;
+                text-shadow: 3px 3px 0px $magenta-shadow, 4px 4px 24px fade-out($magenta-shadow, 0.1);
+                font-size: 2rem;
+                @include media-query($tablet) {
+                  font-size: 3rem;
+                }
+              }
+              .post-aux{
+                font-family: $text-display-light;
+                text-shadow: 2px 2px 0px $magenta-shadow, 4px 4px 24px fade-out($magenta-shadow, 0.1);
+                margin-top: .5rem;
+                font-size: 1.25rem;
+                @include media-query($tablet) {
+                  margin-top: .75rem;
+                  font-size: 1.875rem;
+                }
+              }
+            }
+
+            //ajuste para menu
+            @include media-query($tablet) {
+              margin-bottom: 5.5rem;
+            }
+
+            //Propiedades generales
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 0rem 2rem 2rem 2rem;
+
+            // Texto
+            color: #FFF;
+            text-transform: uppercase;
+            line-height: 1.25;
+
+          .text-display-light{
+            text-shadow: 2px 2px 0px $magenta-shadow, 4px 4px 24px fade-out($magenta-shadow, 0.1
+            );
+          }
+
+          .text-display-bold{
+            text-shadow: 3px 3px 0px $magenta-shadow, 4px 4px 24px fade-out($magenta-shadow, 0.1);
+          }
+
+        }

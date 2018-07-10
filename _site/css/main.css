@@ -162,7 +162,7 @@ pre {
     display: block;
     position: absolute;
     top: 0;
-    height: 25rem;
+    height: 22rem;
     width: 100%;
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%); }
@@ -200,19 +200,20 @@ pre {
       width: 25%; } }
 
 .panel-top-bg {
-  height: 30rem;
+  height: 12rem;
   width: 100%;
   max-height: 100vh;
   display: block;
   position: absolute;
-  top: 0;
+  top: 18rem;
   right: 0;
   z-index: -2;
   background-size: cover; }
   @media all and (min-width: 839px) {
     .panel-top-bg {
       width: 70%;
-      height: 30rem; } }
+      height: 30rem;
+      top: 0; } }
 
 .panel-content {
   display: flex;
@@ -241,11 +242,26 @@ pre {
 
 .panel-nav {
   display: flex;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+  justify-content: space-between; }
+  @media all and (min-width: 839px) {
+    .panel-nav {
+      justify-content: flex-start; } }
   .panel-nav .panel-icon {
-    padding: 2rem; }
+    padding: 1.5rem; }
+    @media all and (min-width: 839px) {
+      .panel-nav .panel-icon {
+        padding: 2rem; } }
+  .panel-nav #panel-back-icon {
+    order: 0; }
+  .panel-nav #panel-nav-icon {
+    order: 2; }
   .panel-nav #menu {
-    display: none; }
+    display: none;
+    order: 1; }
+    @media all and (min-width: 839px) {
+      .panel-nav #menu {
+        order: 3; } }
   .panel-nav .nav {
     display: flex;
     flex-direction: column;
@@ -265,6 +281,30 @@ pre {
   color: #FFF;
   text-transform: uppercase;
   line-height: 1.25; }
+  .panel-text #name {
+    font-family: "Nexa Light";
+    text-shadow: 2px 2px 0px rgba(112, 57, 139, 0.5), 4px 4px 24px rgba(112, 57, 139, 0.4); }
+    @media all and (min-width: 839px) {
+      .panel-text #name {
+        width: 66.66667%;
+        padding-right: 2rem; } }
+  .panel-text #ui {
+    font-family: "Nexa Bold";
+    text-shadow: 3px 3px 0px rgba(112, 57, 139, 0.5), 4px 4px 24px rgba(112, 57, 139, 0.4);
+    border-width: 2px;
+    border-radius: 0.25rem;
+    border-color: #fff;
+    margin-top: 1.5rem; }
+  .panel-text #plus {
+    font-family: "Nexa Light";
+    text-shadow: 2px 2px 0px rgba(112, 57, 139, 0.5), 4px 4px 24px rgba(112, 57, 139, 0.4); }
+  .panel-text #visual-design {
+    font-family: "Nexa Bold";
+    text-shadow: 3px 3px 0px rgba(112, 57, 139, 0.5), 4px 4px 24px rgba(112, 57, 139, 0.4); }
+    @media all and (min-width: 839px) {
+      .panel-text #visual-design {
+        width: 83.33333%;
+        padding-right: 2rem; } }
   @media all and (min-width: 1042px) {
     .panel-home .panel-text {
       max-width: 400px; } }
@@ -272,6 +312,29 @@ pre {
     .panel-home .panel-text {
       padding-left: 3rem;
       padding-right: 3rem; } }
+  .panel-home .panel-text #name {
+    font-size: 1.875rem; }
+  .panel-home .panel-text #ui {
+    font-size: 3rem;
+    padding: 0.25rem 1.5rem 0rem 1.5rem;
+    line-height: 1; }
+    @media all and (min-width: 839px) {
+      .panel-home .panel-text #ui {
+        font-size: 4rem;
+        padding: 1rem 2rem .5rem 2rem; } }
+  .panel-home .panel-text #plus {
+    font-size: 3rem;
+    padding-top: 1rem;
+    line-height: 1; }
+    @media all and (min-width: 839px) {
+      .panel-home .panel-text #plus {
+        font-size: 4rem; } }
+  .panel-home .panel-text #visual-design {
+    font-size: 3rem;
+    margin-top: .5rem; }
+    @media all and (min-width: 839px) {
+      .panel-home .panel-text #visual-design {
+        font-size: 4rem; } }
   @media all and (min-width: 1042px) {
     .panel-left .panel-text {
       max-width: 380px; } }
@@ -279,12 +342,51 @@ pre {
     .panel-left .panel-text {
       padding-left: 2rem;
       padding-right: 2rem; } }
+  .panel-left .panel-text #name {
+    font-size: 1.25rem; }
+    @media all and (min-width: 839px) {
+      .panel-left .panel-text #name {
+        font-size: 1.875rem; } }
+  .panel-left .panel-text #ui {
+    font-size: 2rem;
+    padding: 0rem 1rem 0rem 1rem; }
+    @media all and (min-width: 839px) {
+      .panel-left .panel-text #ui {
+        font-size: 3rem;
+        padding: 0.25rem 1.5rem 0rem 1.5rem; } }
+  .panel-left .panel-text #plus {
+    font-size: 2rem;
+    padding-top: 0.5rem; }
+    @media all and (min-width: 839px) {
+      .panel-left .panel-text #plus {
+        font-size: 3rem; } }
+  .panel-left .panel-text #visual-design {
+    font-size: 2rem; }
+    @media all and (min-width: 839px) {
+      .panel-left .panel-text #visual-design {
+        font-size: 3rem; } }
   .panel-top .panel-text {
     width: 100%;
     flex-grow: 0; }
     @media all and (min-width: 839px) {
       .panel-top .panel-text {
         width: 40%; } }
+    .panel-top .panel-text .post-title {
+      font-family: "Nexa Bold";
+      text-shadow: 3px 3px 0px rgba(112, 57, 139, 0.5), 4px 4px 24px rgba(112, 57, 139, 0.4);
+      font-size: 2rem; }
+      @media all and (min-width: 839px) {
+        .panel-top .panel-text .post-title {
+          font-size: 3rem; } }
+    .panel-top .panel-text .post-aux {
+      font-family: "Nexa Light";
+      text-shadow: 2px 2px 0px rgba(112, 57, 139, 0.5), 4px 4px 24px rgba(112, 57, 139, 0.4);
+      margin-top: .5rem;
+      font-size: 1.25rem; }
+      @media all and (min-width: 839px) {
+        .panel-top .panel-text .post-aux {
+          margin-top: .75rem;
+          font-size: 1.875rem; } }
   @media all and (min-width: 839px) {
     .panel-text {
       margin-bottom: 5.5rem; } }
@@ -542,8 +644,11 @@ Contenido
       line-height: 2.25; }
   .content p, .content ul, .content li, .post-content p, .post-content ul, .post-content li {
     text-align: justify;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     margin-bottom: 1.5rem; }
+    @media all and (min-width: 839px) {
+      .content p, .content ul, .content li, .post-content p, .post-content ul, .post-content li {
+        font-size: 1.25rem; } }
   .content li, .post-content li {
     margin-left: 2rem;
     padding-left: 1rem; }
