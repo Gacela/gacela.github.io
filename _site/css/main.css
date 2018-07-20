@@ -231,11 +231,21 @@ pre {
       height: 30rem;
       top: 0; } }
 
+.panel-wrap {
+  display: flex;
+  width: 100%; }
+  @media all and (min-width: 839px) {
+    .panel-wrap {
+      width: auto;
+      flex-direction: column; } }
+
 .panel-content {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
   padding: 0rem 1.5rem 1.5rem 1.5rem; }
   .panel-home .panel-content, .panel-left .panel-content {
+    flex-wrap: wrap;
     width: 100%; }
     @media all and (min-width: 839px) {
       .panel-home .panel-content, .panel-left .panel-content {
@@ -245,10 +255,10 @@ pre {
         bottom: 0;
         width: auto;
         background: none;
-        flex-wrap: wrap; }
-        .panel-home .panel-content .panel-wrap, .panel-left .panel-content .panel-wrap {
-          align-self: center;
-          margin-bottom: 4.5rem; } }
+        left: 0; } }
+    @media all and (min-width: 1999px) {
+      .panel-home .panel-content, .panel-left .panel-content {
+        left: auto; } }
   .panel-top .panel-content {
     height: 30rem; }
     @media all and (min-width: 839px) {
@@ -263,18 +273,18 @@ pre {
 .panel-nav {
   display: flex;
   flex-wrap: nowrap; }
+  .panel-home .panel-nav, .panel-left .panel-nav {
+    width: 100%; }
   .panel-top .panel-nav, .panel-left .panel-nav {
     justify-content: space-between; }
   .panel-home .panel-nav {
     justify-content: flex-end; }
   @media all and (min-width: 839px) {
     .panel-nav {
-      z-index: 5;
       height: 6rem; }
       .panel-top .panel-nav, .panel-left .panel-nav, .panel-home .panel-nav {
         justify-content: flex-start; }
       .panel-home .panel-nav, .panel-left .panel-nav {
-        width: 100%;
         max-width: 400px; } }
   .panel-nav .panel-icon {
     padding: 1.5rem; }
@@ -291,7 +301,9 @@ pre {
   order: 0; }
   @media all and (min-width: 839px) {
     .panel-text {
-      order: 1; } }
+      order: 1;
+      align-self: center;
+      padding-bottom: 4.5rem; } }
 
 #menu {
   display: none;

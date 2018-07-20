@@ -132,9 +132,17 @@ $panel-left-width: 25%;
     top: 0;
   }
 }
-
+.panel-wrap {
+  display: flex;
+  width: 100%;
+  @include media-query($tablet) {
+    width: auto;
+    flex-direction: column;
+  }
+}
 .panel-content {
   .panel-home &, .panel-left &{
+    flex-wrap: wrap;
     //desktop
     @include media-query($tablet) {
       height: 100vh;
@@ -143,11 +151,10 @@ $panel-left-width: 25%;
       bottom:0;
       width: auto;
       background: none;
-      flex-wrap: wrap;
-      .panel-wrap {
-        align-self: center;
-        margin-bottom: 4.5rem;
-      }
+      left: 0;
+    }
+    @include media-query($desktop-xl) {
+      left: auto;
     }
     //mobile
     width: 100%;
@@ -169,6 +176,7 @@ $panel-left-width: 25%;
 
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
   padding: 0rem 1.5rem 1.5rem 1.5rem;
   @include media-query($tablet) {
     padding: 0rem 2rem 2rem 2rem;
@@ -179,6 +187,10 @@ $panel-left-width: 25%;
 .panel-nav {
   display: flex;
   flex-wrap: nowrap;
+  .panel-home &,
+  .panel-left & {
+    width: 100%;
+  }
   .panel-top &,
   .panel-left & {
     justify-content: space-between;
@@ -191,11 +203,9 @@ $panel-left-width: 25%;
         justify-content:flex-start;
     }
 
-    z-index: 5;
     height: 6rem;
     .panel-home &,
     .panel-left & {
-      width: 100%;
     max-width: 400px;
     }
   }
@@ -222,6 +232,8 @@ $panel-left-width: 25%;
   order: 0;
   @include media-query($tablet) {
     order: 1;
+    align-self: center;
+    padding-bottom: 4.5rem;
   }
 }
 #menu {
