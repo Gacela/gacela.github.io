@@ -5,8 +5,11 @@ layout: default
   <div class="panel-left">
     <div class="panel">
     </div>
+    {% include panel-nav.html %}
     <div class="panel-content">
-      {% include panel-nav.html %}
+      <div id="menu">
+      {% include nav.html %}
+    </div>
       <a href="
       {% if page.lang == 'es' %}
       /

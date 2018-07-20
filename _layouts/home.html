@@ -8,8 +8,11 @@
     <div class="flex flex-wrap md:flex-no-wrap md:mx-auto">
       <div class="panel-home">
         <div class="panel"></div>
+        {% include panel-nav.html %}
         <div class="panel-content">
-          {% include panel-nav.html %}
+          <div id="menu">
+          {% include nav.html %}
+        </div>
           <h1 class="panel-text">
             <span id="name">Ana Paula Tello</span>
             <span id="ui">UI</span>

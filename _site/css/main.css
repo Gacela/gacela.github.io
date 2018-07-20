@@ -176,7 +176,14 @@ pre {
         left: -3rem; } }
 
 .panel-home {
-  width: 100%; }
+  width: 100%;
+  background: #8D48AF;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #8D48AF 0%, #6A66AF 50%, #5188B6 100%);
+  background: -webkit-linear-gradient(-45deg, #8D48AF 0%, #6A66AF 50%, #5188B6 100%);
+  background: linear-gradient(135deg, #8D48AF 0%, #6A66AF 50%, #5188B6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$magenta', endColorstr='$teal',GradientType=1 );
+  padding-bottom: 4.5rem; }
   @media all and (min-width: 1042px) {
     .panel-home {
       display: flex;
@@ -185,10 +192,18 @@ pre {
       max-width: 600px; } }
   @media all and (min-width: 839px) {
     .panel-home {
-      width: 33.3333%; } }
+      width: 33.3333%;
+      background: none;
+      padding-bottom: 0rem; } }
 
 .panel-left {
-  width: 100%; }
+  width: 100%;
+  background: #8D48AF;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #8D48AF 0%, #6A66AF 50%, #5188B6 100%);
+  background: -webkit-linear-gradient(-45deg, #8D48AF 0%, #6A66AF 50%, #5188B6 100%);
+  background: linear-gradient(135deg, #8D48AF 0%, #6A66AF 50%, #5188B6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$magenta', endColorstr='$teal',GradientType=1 ); }
   @media all and (min-width: 1042px) {
     .panel-left {
       display: flex;
@@ -197,7 +212,8 @@ pre {
       max-width: 400px; } }
   @media all and (min-width: 839px) {
     .panel-left {
-      width: 25%; } }
+      width: 25%;
+      background: none; } }
 
 .panel-top-bg {
   height: 12rem;
@@ -217,15 +233,10 @@ pre {
 
 .panel-content {
   display: flex;
-  flex-direction: column; }
+  flex-direction: row;
+  padding: 0rem 1.5rem 1.5rem 1.5rem; }
   .panel-home .panel-content, .panel-left .panel-content {
-    width: 100%;
-    background: #8D48AF;
-    /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #8D48AF 0%, #6A66AF 50%, #5188B6 100%);
-    background: -webkit-linear-gradient(-45deg, #8D48AF 0%, #6A66AF 50%, #5188B6 100%);
-    background: linear-gradient(135deg, #8D48AF 0%, #6A66AF 50%, #5188B6 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$magenta', endColorstr='$teal',GradientType=1 ); }
+    width: 100%; }
     @media all and (min-width: 839px) {
       .panel-home .panel-content, .panel-left .panel-content {
         height: 100vh;
@@ -233,51 +244,89 @@ pre {
         top: 0;
         bottom: 0;
         width: auto;
-        background: none; } }
+        background: none;
+        flex-direction: column; } }
   .panel-top .panel-content {
     height: 30rem; }
     @media all and (min-width: 839px) {
       .panel-top .panel-content {
-        justify-content: space-between; } }
+        height: 22rem;
+        align-items: flex-start;
+        width: 35%; } }
+  @media all and (min-width: 839px) {
+    .panel-content {
+      padding: 0rem 2rem 2rem 2rem; } }
 
 .panel-nav {
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between; }
+  flex-wrap: nowrap; }
+  .panel-top .panel-nav, .panel-left .panel-nav {
+    justify-content: space-between; }
+  .panel-home .panel-nav {
+    justify-content: flex-end; }
   @media all and (min-width: 839px) {
     .panel-nav {
-      justify-content: flex-start; } }
+      z-index: 5;
+      height: 6rem; }
+      .panel-top .panel-nav, .panel-left .panel-nav, .panel-home .panel-nav {
+        justify-content: flex-start; }
+      .panel-home .panel-nav, .panel-left .panel-nav {
+        width: 100%;
+        max-width: 400px; } }
   .panel-nav .panel-icon {
     padding: 1.5rem; }
     @media all and (min-width: 839px) {
       .panel-nav .panel-icon {
         padding: 2rem; } }
-  .panel-nav #panel-back-icon {
-    order: 0; }
-  .panel-nav #panel-nav-icon {
-    order: 2; }
-  .panel-nav #menu {
-    display: none;
-    order: 1; }
-    @media all and (min-width: 839px) {
-      .panel-nav #menu {
-        order: 3; } }
-  .panel-nav .nav {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1.25rem; }
-    .panel-nav .nav a {
-      color: #ffffff;
-      margin-top: 0.75rem;
-      margin-bottom: 0.75rem; }
+  .panel-home .panel-nav #panel-back-icon {
+    display: none; }
+  @media all and (min-width: 839px) {
+    .panel-home .panel-nav #panel-back-icon, .panel-left .panel-nav #panel-back-icon {
+      display: none; } }
+
+.panel-text {
+  order: 0; }
+  @media all and (min-width: 839px) {
+    .panel-text {
+      order: 1; } }
+
+#menu {
+  display: none;
+  order: 1; }
+  @media all and (min-width: 839px) {
+    #menu {
+      order: 0;
+      width: 12rem; }
+      .panel-home #menu {
+        padding-top: 3rem;
+        padding-left: 6rem; }
+      .panel-left #menu {
+        padding-top: 2rem;
+        padding-left: 6rem; } }
+
+.nav {
+  display: flex;
+  flex-direction: column; }
+  .nav a {
+    color: #ffffff;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    text-align: right;
+    font-size: 14px; }
+  @media all and (min-width: 839px) {
+    .nav {
+      order: 0; }
+      .nav a {
+        text-align: left;
+        font-size: 16px; } }
 
 .panel-text {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-top: 0.75rem;
   align-items: flex-start;
-  padding: 0rem 2rem 2rem 2rem;
   color: #FFF;
   text-transform: uppercase;
   line-height: 1.25; }
@@ -311,7 +360,9 @@ pre {
   @media all and (min-width: 839px) {
     .panel-home .panel-text {
       padding-left: 3rem;
-      padding-right: 3rem; } }
+      padding-right: 3rem;
+      justify-content: center;
+      margin-bottom: 6rem; } }
   .panel-home .panel-text #name {
     font-size: 1.875rem; }
   .panel-home .panel-text #ui {
@@ -341,7 +392,9 @@ pre {
   @media all and (min-width: 839px) {
     .panel-left .panel-text {
       padding-left: 2rem;
-      padding-right: 2rem; } }
+      padding-right: 2rem;
+      justify-content: center;
+      margin-bottom: 6rem; } }
   .panel-left .panel-text #name {
     font-size: 1.25rem; }
     @media all and (min-width: 839px) {
@@ -370,7 +423,7 @@ pre {
     flex-grow: 0; }
     @media all and (min-width: 839px) {
       .panel-top .panel-text {
-        width: 40%; } }
+        align-self: center; } }
     .panel-top .panel-text .post-title {
       font-family: "Nexa Bold";
       text-shadow: 3px 3px 0px rgba(112, 57, 139, 0.5), 4px 4px 24px rgba(112, 57, 139, 0.4);
@@ -389,7 +442,7 @@ pre {
           font-size: 1.875rem; } }
   @media all and (min-width: 839px) {
     .panel-text {
-      margin-bottom: 5.5rem; } }
+      margin-top: 0rem; } }
   .panel-text .text-display-light {
     text-shadow: 2px 2px 0px rgba(112, 57, 139, 0.5), 4px 4px 24px rgba(112, 57, 139, 0.4); }
   .panel-text .text-display-bold {
@@ -449,8 +502,11 @@ pre {
   justify-content: center;
   color: #fff;
   font-family: "Nexa Light";
-  font-size: 4rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 0px rgba(112, 57, 139, 0.5); }
+  @media all and (min-width: 839px) {
+    .thumbnail-placeholder {
+      font-size: 4rem; } }
 
 .thumbnail, .small-thumbnail {
   background-position: center; }
@@ -607,34 +663,32 @@ Contenido
   margin-bottom: 30px; }
   @media all and (min-width: 839px) {
     .content, .post-content {
-      padding-left: 0rem;
-      padding-right: 0rem;
       padding-top: 5rem; } }
   .content h2, .post-content h2 {
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 1.5rem;
     color: #8D48AF;
     font-family: "Nexa Bold";
     text-transform: uppercase; }
     @media all and (min-width: 839px) {
       .content h2, .post-content h2 {
-        font-size: 28px; } }
+        font-size: 32px; } }
   .content h3, .post-content h3 {
-    font-size: 26px;
+    font-size: 22px;
     margin-bottom: 1.5rem;
     font-family: "Nexa Light";
     text-transform: uppercase; }
     @media all and (min-width: 839px) {
       .content h3, .post-content h3 {
-        font-size: 22px; } }
+        font-size: 26px; } }
   .content h4, .post-content h4 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 1.5rem;
     font-family: "Nexa Light";
     text-transform: uppercase; }
     @media all and (min-width: 839px) {
       .content h4, .post-content h4 {
-        font-size: 18px; } }
+        font-size: 20px; } }
   .content p, .content h1, .content h2, .content h3, .content ul, .post-content p, .post-content h1, .post-content h2, .post-content h3, .post-content ul {
     margin-right: auto;
     margin-left: auto; }

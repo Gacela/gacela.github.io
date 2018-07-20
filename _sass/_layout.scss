@@ -65,7 +65,10 @@
     justify-content: center;
     color: #fff;
     font-family: $text-display-light;
-    font-size: 4rem;
+    font-size: 3rem;
+    @include media-query($tablet) {
+        font-size: 4rem;
+    }
     text-shadow: 2px 2px 0px $magenta-shadow;
   }
 
@@ -244,24 +247,7 @@
 /**
 nav
 **/
-.nav {
-  // position: absolute;
-  // top: 0;
-  // display: flex;
-  // justify-content: flex-start;
-  //
-  // & .panel-left{
-  //   width: $panel-left-width;
-  // }
-  //
-  // a {
-  //   color: white;
-  //   margin: 1rem;
-  //   &:hover{
-  //     // color:$magenta-light;
-  //   }
-  // }
-}
+
 
 
 /**
@@ -278,38 +264,36 @@ Contenido
   padding-top: 2rem;
   @include media-query($tablet) {
     // Propiedades desktop
-    padding-left: 0rem;
-    padding-right: 0rem;
     padding-top: 5rem;
   }
   h2 {
-      font-size: 32px;
+      font-size: 28px;
       margin-bottom: 1.5rem;
       color: $magenta;
       font-family: $text-display-bold;
       text-transform: uppercase;
       @include media-query($tablet) {
-          font-size: 28px;
+          font-size: 32px;
       }
   }
 
   h3 {
-      font-size: 26px;
+      font-size: 22px;
       margin-bottom: 1.5rem;
       font-family: $text-display-light;
       text-transform: uppercase;
       @include media-query($tablet) {
-          font-size: 22px;
+          font-size: 26px;
       }
   }
 
   h4 {
-      font-size: 20px;
+      font-size: 18px;
       margin-bottom: 1.5rem;
       font-family: $text-display-light;
       text-transform: uppercase;
       @include media-query($tablet) {
-          font-size: 18px;
+          font-size: 20px;
       }
   }
 

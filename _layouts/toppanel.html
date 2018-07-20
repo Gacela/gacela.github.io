@@ -7,11 +7,11 @@ layout: default
 gradient
 {% endif %}
   ">
+  {% include panel-nav.html %}
     <div class="panel-content">
-      {% include panel-nav.html %}
     <div class="panel-text">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-aux">
+      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+      <p class="post-aux">
       {% for tag in page.tags %}
         {{ tag }}
         {% if forloop.last == true %}
@@ -19,14 +19,17 @@ gradient
         <span>/</span>
         {% endif %}
       {% endfor %}
-    </p>
-    {% if page.hide_date == 'hide' %}
-    {% else %}
-    <p class="post-aux">
-      {{ page.date | date: "%m/%Y"}}
-    </p>
-    {% endif %}
+      </p>
+      {% if page.hide_date == 'hide' %}
+      {% else %}
+      <p class="post-aux">
+        {{ page.date | date: "%m/%Y"}}
+      </p>
+      {% endif %}
     </div>
+    <div id="menu">
+    {% include nav.html %}
+  </div>
   </div>
   {% if page.cover_img %}
     <div class="panel"></div>
