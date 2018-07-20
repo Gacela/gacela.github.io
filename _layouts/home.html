@@ -8,8 +8,9 @@
     <div class="flex flex-wrap md:flex-no-wrap md:mx-auto">
       <div class="panel-home">
         <div class="panel"></div>
-        {% include panel-nav.html %}
-        <div class="panel-content">
+        <div class="panel-content flex-wrap">
+          {% include panel-nav.html %}
+          <div class="panel-wrap w-full">
           <div id="menu">
           {% include nav.html %}
         </div>
@@ -24,6 +25,7 @@
             {% endif %}
           </h1>
         </div>
+      </div>
       </div>
       <div class="w-full md:w-2/3">
         <!-- <div class="absolute pin-t pin-r text-white md:text-blue md:relative text-right py-8">

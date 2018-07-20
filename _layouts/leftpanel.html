@@ -5,8 +5,9 @@ layout: default
   <div class="panel-left">
     <div class="panel">
     </div>
-    {% include panel-nav.html %}
     <div class="panel-content">
+      {% include panel-nav.html %}
+      <div class="panel-wrap">
       <div id="menu">
       {% include nav.html %}
     </div>
@@ -27,6 +28,7 @@ layout: default
         {% endif %}
       </a>
     </div>
+  </div>
   </div>
   <div class="w-full md:w-3/4 content">
     {{ content }}

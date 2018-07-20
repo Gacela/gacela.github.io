@@ -143,7 +143,11 @@ $panel-left-width: 25%;
       bottom:0;
       width: auto;
       background: none;
-      flex-direction: column;
+      flex-wrap: wrap;
+      .panel-wrap {
+        align-self: center;
+        margin-bottom: 4.5rem;
+      }
     }
     //mobile
     width: 100%;
@@ -228,11 +232,9 @@ $panel-left-width: 25%;
     order: 0;
     width: 12rem;
     .panel-home & {
-      padding-top: 3rem;
       padding-left: 6rem;
     }
     .panel-left & {
-      padding-top: 2rem;
       padding-left: 6rem;
     }
   }

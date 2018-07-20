@@ -245,7 +245,10 @@ pre {
         bottom: 0;
         width: auto;
         background: none;
-        flex-direction: column; } }
+        flex-wrap: wrap; }
+        .panel-home .panel-content .panel-wrap, .panel-left .panel-content .panel-wrap {
+          align-self: center;
+          margin-bottom: 4.5rem; } }
   .panel-top .panel-content {
     height: 30rem; }
     @media all and (min-width: 839px) {
@@ -298,10 +301,8 @@ pre {
       order: 0;
       width: 12rem; }
       .panel-home #menu {
-        padding-top: 3rem;
         padding-left: 6rem; }
       .panel-left #menu {
-        padding-top: 2rem;
         padding-left: 6rem; } }
 
 .nav {
@@ -361,8 +362,7 @@ pre {
     .panel-home .panel-text {
       padding-left: 3rem;
       padding-right: 3rem;
-      justify-content: center;
-      margin-bottom: 6rem; } }
+      justify-content: center; } }
   .panel-home .panel-text #name {
     font-size: 1.875rem; }
   .panel-home .panel-text #ui {
@@ -393,8 +393,7 @@ pre {
     .panel-left .panel-text {
       padding-left: 2rem;
       padding-right: 2rem;
-      justify-content: center;
-      margin-bottom: 6rem; } }
+      justify-content: center; } }
   .panel-left .panel-text #name {
     font-size: 1.25rem; }
     @media all and (min-width: 839px) {
