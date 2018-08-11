@@ -1,6 +1,6 @@
-<a href="{{ post.url | absolute_url }}" class="gallery-card shadow-block">
+<a href="{{ post.url | relative_url }}" class="gallery-card shadow-block">
   {% if post.cover_img %}
-  <div class="thumbnail" style="background-image: url({{ post.cover_img | absolute_url }}); background-position: center;"></div>
+  <div class="thumbnail" style="background-image: url({{ post.cover_img | relative_url }}); background-position: center;"></div>
   {% else %}
   <div class="thumbnail thumbnail-placeholder">{{ post.title }}</div>
   {% endif %}
