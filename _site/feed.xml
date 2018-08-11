@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Aug 2018 00:34:07 -0500</pubDate>
-    <lastBuildDate>Sat, 11 Aug 2018 00:34:07 -0500</lastBuildDate>
+    <pubDate>Sat, 11 Aug 2018 00:41:52 -0500</pubDate>
+    <lastBuildDate>Sat, 11 Aug 2018 00:41:52 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -26,8 +26,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 01 Apr 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2018/logofolio</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/logofolio</guid>
+        <link>http://localhost:4000/es/2018/logofolio</link>
+        <guid isPermaLink="true">http://localhost:4000/es/2018/logofolio</guid>
         
         <category>Identidad</category>
         
@@ -149,8 +149,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2018/doname</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/doname</guid>
+        <link>http://localhost:4000/es/2018/doname</link>
+        <guid isPermaLink="true">http://localhost:4000/es/2018/doname</guid>
         
         <category>Diseño de producto</category>
         
@@ -191,8 +191,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 25 Feb 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2018/macadamia</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/macadamia</guid>
+        <link>http://localhost:4000/es/2018/macadamia</link>
+        <guid isPermaLink="true">http://localhost:4000/es/2018/macadamia</guid>
         
         <category>Maquetado</category>
         
@@ -355,8 +355,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 01 Jun 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2018/centia</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/centia</guid>
+        <link>http://localhost:4000/es/2018/centia</link>
+        <guid isPermaLink="true">http://localhost:4000/es/2018/centia</guid>
         
         <category>Identidad</category>
         
@@ -385,8 +385,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 01 Apr 2016 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2016/ilustracion</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/ilustracion</guid>
+        <link>http://localhost:4000/es/2016/ilustracion</link>
+        <guid isPermaLink="true">http://localhost:4000/es/2016/ilustracion</guid>
         
         <category>Ilustración</category>
         
@@ -447,8 +447,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 01 Apr 2016 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2018/cmi</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/cmi</guid>
+        <link>http://localhost:4000/es/2018/cmi</link>
+        <guid isPermaLink="true">http://localhost:4000/es/2018/cmi</guid>
         
         <category>Diseño web</category>
         
