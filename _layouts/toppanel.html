@@ -33,7 +33,7 @@ gradient
   </div>
   {% if page.cover_img %}
     <div class="panel"></div>
-    <div class="panel-top-bg" style="background-image: url({{ page.cover_img | absolute_url }}); background-position: center;"></div>
+    <div class="panel-top-bg" style="background-image: url({{ page.cover_img | relative_url }}); background-position: center;"></div>
 {% endif %}
   </div>
   <div class="w-full mt-8 mr-8">
