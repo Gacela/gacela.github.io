@@ -233,6 +233,7 @@ pre {
 
 .panel-wrap {
   display: flex;
+  flex-grow: 1;
   width: 100%; }
   @media all and (min-width: 839px) {
     .panel-wrap {
@@ -241,7 +242,7 @@ pre {
 
 .panel-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   padding: 0rem 1.5rem 1.5rem 1.5rem; }
   .panel-home .panel-content, .panel-left .panel-content {
@@ -256,9 +257,6 @@ pre {
         width: auto;
         background: none;
         left: 0; } }
-    @media all and (min-width: 1999px) {
-      .panel-home .panel-content, .panel-left .panel-content {
-        left: auto; } }
   .panel-top .panel-content {
     height: 30rem; }
     @media all and (min-width: 839px) {
