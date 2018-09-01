@@ -167,6 +167,7 @@ $panel-left-width: 25%;
   }
   .panel-top &, {
     height: $panel-top-height;
+      flex-direction: row;
     @include media-query($tablet) {
         height: $panel-top-height - 8rem;
         align-items: flex-start;

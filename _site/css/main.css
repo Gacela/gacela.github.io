@@ -258,7 +258,8 @@ pre {
         background: none;
         left: 0; } }
   .panel-top .panel-content {
-    height: 30rem; }
+    height: 30rem;
+    flex-direction: row; }
     @media all and (min-width: 839px) {
       .panel-top .panel-content {
         height: 22rem;
