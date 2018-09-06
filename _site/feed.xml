@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Sep 2018 00:54:34 -0500</pubDate>
-    <lastBuildDate>Tue, 04 Sep 2018 00:54:34 -0500</lastBuildDate>
+    <pubDate>Thu, 06 Sep 2018 16:23:21 -0500</pubDate>
+    <lastBuildDate>Thu, 06 Sep 2018 16:23:21 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -15,13 +15,13 @@
         <description>&lt;p&gt;Este es el lugar donde viven los trabajos de logotipos que he realizado para proyectos web o pequeñas empresas donde la identidad visual es parte importante del producto mínimo viable, pero no necesariamente lleva un trabajo de estrategia de marca detrás.&lt;/p&gt;
 
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/logofolio/1904.png);&quot; href=/img/projects/logofolio/1904_full.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/logofolio/socialhive.png);&quot; href=/img/projects/logofolio/socialhive_full.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/logofolio/kilauea.png);&quot; href=/img/projects/logofolio/kilauea.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/logofolio/allio.png);&quot; href=/img/projects/logofolio/allio_full.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/logofolio/pepito.png);&quot; href=/img/projects/logofolio/pepito.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/logofolio/adb.png);&quot; href=/img/projects/logofolio/adb2.jpg&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/logofolio/cancion.png);&quot; href=/img/projects/logofolio/cancion.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/1904.png);&quot; href=http://localhost:4000/img/projects/logofolio/1904_full.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/socialhive.png);&quot; href=http://localhost:4000/img/projects/logofolio/socialhive_full.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/kilauea.png);&quot; href=http://localhost:4000/img/projects/logofolio/kilauea.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/allio.png);&quot; href=http://localhost:4000/img/projects/logofolio/allio_full.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/pepito.png);&quot; href=http://localhost:4000/img/projects/logofolio/pepito.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/adb.png);&quot; href=http://localhost:4000/img/projects/logofolio/adb2.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/logofolio/cancion.png);&quot; href=http://localhost:4000/img/projects/logofolio/cancion.png&gt;&lt;/a&gt;
 
 &lt;/div&gt;
 </description>
@@ -49,18 +49,18 @@
   &lt;p&gt;Quisimos buscar una solución que no sólo llevara la funcionalidad de los pagos en línea a personas poco familiarizadas, sino que promoviera la comunicación, transparencia y rendición de cuentas entre las personas creadoras de las causas y sus donantes.&lt;/p&gt;
 
   &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-    &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/1-diagrama_donante.png);&quot; href=/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
-    &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/2-diagrama_donatario.png);&quot; href=/img/projects/doname/2-diagrama_donatario.png&gt;&lt;/a&gt;
-    &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/3-mapa.png);&quot; href=/img/projects/doname/3-mapa.png&gt;&lt;/a&gt;
+    &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/1-diagrama_donante.png);&quot; href=http://localhost:4000/img/projects/doname/1-diagrama_donante.png&gt;&lt;/a&gt;
+    &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/2-diagrama_donatario.png);&quot; href=http://localhost:4000/img/projects/doname/2-diagrama_donatario.png&gt;&lt;/a&gt;
+    &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/3-mapa.png);&quot; href=http://localhost:4000/img/projects/doname/3-mapa.png&gt;&lt;/a&gt;
 
   &lt;/div&gt;
 
 &lt;h2&gt;La identidad&lt;/h2&gt;
 &lt;p&gt;Nuestro objetivo principal es hacer crecer las causas que hospedamos y que ellas sean quienes dan vida a nuestra plataforma. Por ello buscamos una solución gráfica sólida, que hable de lo que hacemos, pero al mismo tiempo que sea adaptable a diferentes contextos visuales y paletas de colores.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;main-thumbnail&quot; href=/img/projects/doname/3-identidad.png&gt;&lt;img src=&quot;/img/projects/doname/3-identidad.png&quot;&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/4-reticula.png);&quot; href=/img/projects/doname/4-reticula.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/5-isotipo.png);&quot; href=/img/projects/doname/5-isotipo.png&gt;&lt;/a&gt;
+&lt;a class=&quot;main-thumbnail&quot; href=http://localhost:4000/img/projects/doname/3-identidad.png&gt;&lt;img src=&quot;http://localhost:4000/img/projects/doname/3-identidad.png&quot;&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/4-reticula.png);&quot; href=http://localhost:4000/img/projects/doname/4-reticula.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/5-isotipo.png);&quot; href=http://localhost:4000/img/projects/doname/5-isotipo.png&gt;&lt;/a&gt;
 &lt;a class=&quot;image&quot;&gt;
   &lt;link rel=&quot;stylesheet&quot; href=&quot;/files/animacion_doname/animacionloop.css&quot;&gt;
   &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
@@ -128,24 +128,24 @@
 &lt;h2&gt;Las ilustraciones&lt;/h2&gt;
 &lt;p&gt;Queremos lograr que personas y organizaciones con diversas necesidades de donativos encuentren útil nuestra plataforma. Por ello decidimos crear ilustraciones originales para representarlos y sus causas. Es nuestra forma de decirles &quot;Dóname también es para ti&quot;.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/6-Illustracion.png);&quot; href=/img/projects/doname/6-Illustracion.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/7-Illustracion.png);&quot; href=/img/projects/doname/7-Illustracion.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/8-Illustracion.png);&quot; href=/img/projects/doname/8-Illustracion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/6-Illustracion.png);&quot; href=http://localhost:4000/img/projects/doname/6-Illustracion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/7-Illustracion.png);&quot; href=http://localhost:4000/img/projects/doname/7-Illustracion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/8-Illustracion.png);&quot; href=http://localhost:4000/img/projects/doname/8-Illustracion.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 
 &lt;h2&gt;El producto final&lt;/h2&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/9-Home_doname.png);&quot; href=/img/projects/doname/6-Home_doname.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/10-Pagina_causa.png);&quot; href=/img/projects/doname/7-Pagina_causa.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/11-Formulario_donacion.png);&quot; href=/img/projects/doname/8-Formulario_donacion.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/12-Editar_4.png);&quot; href=/img/projects/doname/9-Editar_4.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/9-Home_doname.png);&quot; href=http://localhost:4000/img/projects/doname/6-Home_doname.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/10-Pagina_causa.png);&quot; href=http://localhost:4000/img/projects/doname/7-Pagina_causa.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/11-Formulario_donacion.png);&quot; href=http://localhost:4000/img/projects/doname/8-Formulario_donacion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/doname/12-Editar_4.png);&quot; href=http://localhost:4000/img/projects/doname/9-Editar_4.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h2&gt;La web app&lt;/h2&gt;
 &lt;p&gt;Doname tiene un modelo de negocio freemium, donde las características &lt;i&gt;premium&lt;/i&gt; están enfocadas en permitir a las organizaciones con causas grandes personalicen la experiencia que ofrecen a sus donantes. Por ello creamos una web app, que servirá para recibir pagos y registrar donaciones hechas en efectivo de manera presencial en un dispositivo móvil propiedad de la persona representante de la causa. Así se pueden registrar donativos del público asistente a un evento o conferencia de la organización.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;main-thumbnail&quot; href=/img/projects/doname/14-Movil.png&gt;&lt;img src=&quot;/img/projects/doname/14-Movil.png&quot;&gt;&lt;/a&gt;
+&lt;a class=&quot;main-thumbnail&quot; href=http://localhost:4000/img/projects/doname/14-Movil.png&gt;&lt;img src=&quot;http://localhost:4000/img/projects/doname/14-Movil.png&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
@@ -218,27 +218,27 @@
 &lt;/ul&gt;
 
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/limitum/1-diagrama.png);&quot; href=/img/projects/limitum/1-diagrama.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/limitum/1-diagrama.png);&quot; href=http://localhost:4000/img/projects/limitum/1-diagrama.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h2&gt;La plataforma&lt;/h2&gt;
 &lt;p&gt;El objetivo propuesto fue generar un sistema de diseño que nos permitiera interactuar de modos muy específicos con cada solicitud de crédito, además de servir de base para crear nuevos módulos y solucionar interacciones que se fueran agregando a la plataforma conforme esta madurara.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/limitum/2-cuestionario.png);&quot; href=/img/projects/limitum/2-cuestionario.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/limitum/3-ofertas.png);&quot; href=/img/projects/limitum/3-ofertas.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/limitum/4-oferta.png);&quot; href=/img/projects/limitum/4-oferta.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/limitum/5-subirdocumentos.png);&quot; href=/img/projects/limitum/5-subirdocumentos.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/limitum/2-cuestionario.png);&quot; href=http://localhost:4000/img/projects/limitum/2-cuestionario.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/limitum/3-ofertas.png);&quot; href=http://localhost:4000/img/projects/limitum/3-ofertas.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/limitum/4-oferta.png);&quot; href=http://localhost:4000/img/projects/limitum/4-oferta.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/limitum/5-subirdocumentos.png);&quot; href=http://localhost:4000/img/projects/limitum/5-subirdocumentos.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h2&gt;Los íconos&lt;/h2&gt;
 &lt;p&gt;Más allá de ser una landing page informativa buscamos que la página web fuera el punto de entrada para el registro de nuevos usuarios. Parte de este trabajo implicaba explicar paso por paso lo que hace la plataforma. Para ayudarnos en esto se diseñó un sistema de iconos que ilustraran los conceptos y facilitaran su comprensión.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;main-thumbnail&quot; href=/img/projects/limitum/7-iconos.png&gt;&lt;img src=&quot;/img/projects/limitum/7-iconos.png&quot;&gt;&lt;/a&gt;
+  &lt;a class=&quot;main-thumbnail&quot; href=http://localhost:4000/img/projects/limitum/7-iconos.png&gt;&lt;img src=&quot;http://localhost:4000/img/projects/limitum/7-iconos.png&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h2&gt;La página web&lt;/h2&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;main-thumbnail&quot; href=/img/projects/limitum/6-screengif.gif&gt;&lt;img src=&quot;/img/projects/limitum/6-screengif.gif&quot;&gt;&lt;/a&gt;
+  &lt;a class=&quot;main-thumbnail&quot; href=http://localhost:4000/img/projects/limitum/6-screengif.gif&gt;&lt;img src=&quot;http://localhost:4000/img/projects/limitum/6-screengif.gif&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 01 Nov 2017 00:00:00 -0600</pubDate>
@@ -267,10 +267,10 @@
 &lt;p&gt;Desde la primera versión para MiCochinito ha sido importante recalcar su identidad mexicana. Dentro de la primera versión se nos proporcionó una paleta de colores brillantes, patrones de flores, y la mascota de la plataforma, elementos que quisimos conservar e integrar.&lt;/p&gt;
 
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/1-v1_home.png);&quot; href=/img/projects/micochinito/1-v1_home.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/2-v1_proyecto.png);&quot; href=/img/projects/micochinito/2-v1_proyecto.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/3-v1_crear.png);&quot; href=/img/projects/micochinito/3-v1_crear.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/4-v1_apadrinar.png);&quot; href=/img/projects/micochinito/4-v1_apadrinar.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/1-v1_home.png);&quot; href=http://localhost:4000/img/projects/micochinito/1-v1_home.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/2-v1_proyecto.png);&quot; href=http://localhost:4000/img/projects/micochinito/2-v1_proyecto.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/3-v1_crear.png);&quot; href=http://localhost:4000/img/projects/micochinito/3-v1_crear.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/4-v1_apadrinar.png);&quot; href=http://localhost:4000/img/projects/micochinito/4-v1_apadrinar.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h2&gt;La madurez de la plataforma&lt;/h2&gt;
@@ -284,12 +284,12 @@
 &lt;/ul&gt;
 
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/5-v2_home.png);&quot; href=/img/projects/micochinito/5-v2_home.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/6-v2_emprendedores.png);&quot; href=/img/projects/micochinito/6-v2_emprendedores.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/7-v2_proyecto.png);&quot; href=/img/projects/micochinito/7-v2_proyecto.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/8-v2_crear.gif);&quot; href=/img/projects/micochinito/8-v2_crear.gif&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/9-v2_crear.png);&quot; href=/img/projects/micochinito/9-v2_crear.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/10-v2_apadrinar.png);&quot; href=/img/projects/micochinito/10-v2_apadrinar.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/5-v2_home.png);&quot; href=http://localhost:4000/img/projects/micochinito/5-v2_home.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/6-v2_emprendedores.png);&quot; href=http://localhost:4000/img/projects/micochinito/6-v2_emprendedores.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/7-v2_proyecto.png);&quot; href=http://localhost:4000/img/projects/micochinito/7-v2_proyecto.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/8-v2_crear.gif);&quot; href=http://localhost:4000/img/projects/micochinito/8-v2_crear.gif&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/9-v2_crear.png);&quot; href=http://localhost:4000/img/projects/micochinito/9-v2_crear.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/10-v2_apadrinar.png);&quot; href=http://localhost:4000/img/projects/micochinito/10-v2_apadrinar.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h2&gt;Feedback y más iteraciones&lt;/h2&gt;
@@ -297,11 +297,11 @@
 &lt;p&gt;Gracias a la empatía y comunicación de MiCochinito con sus usuarios logramos tener feedback y recomendaciones de usabilidad para mejorar varias funciones de la plataforma y solicitar datos relevantes al usuario en el momento que se requieren. También se ilustró una seriede cochinitos para usar como fotos de perfil&lt;/p&gt;
 
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/11-v3_proyecto.png);&quot; href=/img/projects/micochinito/11-v3_proyecto.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/12-v3_crear.png);&quot; href=/img/projects/micochinito/12-v3_crear.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/13-v3_crear.png);&quot; href=/img/projects/micochinito/13-v3_crear.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/14-v3_apadrinar.png);&quot; href=/img/projects/micochinito/14-v3_apadrinar.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/micochinito/15-v3_perfil.png);&quot; href=/img/projects/micochinito/15-v3_perfil.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/11-v3_proyecto.png);&quot; href=http://localhost:4000/img/projects/micochinito/11-v3_proyecto.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/12-v3_crear.png);&quot; href=http://localhost:4000/img/projects/micochinito/12-v3_crear.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/13-v3_crear.png);&quot; href=http://localhost:4000/img/projects/micochinito/13-v3_crear.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/14-v3_apadrinar.png);&quot; href=http://localhost:4000/img/projects/micochinito/14-v3_apadrinar.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/micochinito/15-v3_perfil.png);&quot; href=http://localhost:4000/img/projects/micochinito/15-v3_perfil.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
@@ -345,13 +345,13 @@
       <item>
         <title>CentiaCRM</title>
         <description>&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/centia/1-identidad.png);&quot; href=/img/projects/centia/1-identidad.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/centia/2-iconos.png);&quot; href=/img/projects/centia/2-iconos.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/centia/4-home.png);&quot; href=/img/projects/centia/4-home.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/centia/5-pregunta.png);&quot; href=/img/projects/centia/5-pregunta.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/centia/6-resultado.png);&quot; href=/img/projects/centia/6-resultado.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/centia/7-crm.png);&quot; href=/img/projects/centia/7-crm.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/centia/8-precios.png);&quot; href=/img/projects/centia/8-precios.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/1-identidad.png);&quot; href=http://localhost:4000/img/projects/centia/1-identidad.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/2-iconos.png);&quot; href=http://localhost:4000/img/projects/centia/2-iconos.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/4-home.png);&quot; href=http://localhost:4000/img/projects/centia/4-home.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/5-pregunta.png);&quot; href=http://localhost:4000/img/projects/centia/5-pregunta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/6-resultado.png);&quot; href=http://localhost:4000/img/projects/centia/6-resultado.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/7-crm.png);&quot; href=http://localhost:4000/img/projects/centia/7-crm.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/centia/8-precios.png);&quot; href=http://localhost:4000/img/projects/centia/8-precios.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 01 Jun 2016 00:00:00 -0500</pubDate>
@@ -374,13 +374,13 @@
       <item>
         <title>Ilustración</title>
         <description>&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/ilustracion/bikeshirt2.jpg);&quot; href=/img/projects/ilustracion/bikeshirt2.jpg&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/ilustracion/asaroth1.jpg);&quot; href=/img/projects/ilustracion/asaroth2.jpg&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/ilustracion/margaroth.jpg);&quot; href=/img/projects/ilustracion/margaroth.jpg&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/ilustracion/carpas.jpg);&quot; href=/img/projects/ilustracion/carpas.jpg&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/ilustracion/censura.jpg);&quot; href=/img/projects/ilustracion/censura.jpg&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/ilustracion/self1.jpg);&quot; href=/img/projects/ilustracion/aself1.jpg&gt;&lt;/a&gt;
-  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/ilustracion/ajolote.png);&quot; href=/img/projects/ilustracion/ajolote.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/bikeshirt2.jpg);&quot; href=http://localhost:4000/img/projects/ilustracion/bikeshirt2.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/asaroth1.jpg);&quot; href=http://localhost:4000/img/projects/ilustracion/asaroth2.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/margaroth.jpg);&quot; href=http://localhost:4000/img/projects/ilustracion/margaroth.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/carpas.jpg);&quot; href=http://localhost:4000/img/projects/ilustracion/carpas.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/censura.jpg);&quot; href=http://localhost:4000/img/projects/ilustracion/censura.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/self1.jpg);&quot; href=http://localhost:4000/img/projects/ilustracion/aself1.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/ilustracion/ajolote.png);&quot; href=http://localhost:4000/img/projects/ilustracion/ajolote.png&gt;&lt;/a&gt;
 
 &lt;/div&gt;
 </description>
@@ -401,49 +401,49 @@
 &lt;h3&gt;2013&lt;/h3&gt;
 &lt;p&gt;Primeras propuestas&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/1-propuesta.png);&quot; href=/img/projects/cmi/1-propuesta.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/2-propuesta.png);&quot; href=/img/projects/cmi/2-propuesta.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/cmi/3-propuesta.gif);&quot; href=/img/projects/cmi/3-propuesta.gif&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/1-propuesta.png);&quot; href=http://localhost:4000/img/projects/cmi/1-propuesta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/2-propuesta.png);&quot; href=http://localhost:4000/img/projects/cmi/2-propuesta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/3-propuesta.gif);&quot; href=http://localhost:4000/img/projects/cmi/3-propuesta.gif&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;Ilustraciones&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;main-thumbnail&quot; href=/img/projects/cmi/4-ilustraciones.png&gt;&lt;img src=&quot;/img/projects/cmi/4-ilustraciones.png&quot;&gt;&lt;/a&gt;
+  &lt;a class=&quot;main-thumbnail&quot; href=http://localhost:4000/img/projects/cmi/4-ilustraciones.png&gt;&lt;img src=&quot;http://localhost:4000/img/projects/cmi/4-ilustraciones.png&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;Producto final&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/7-home.png);&quot; href=/img/projects/cmi/7-home.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/8-cmovil.png);&quot; href=/img/projects/cmi/8-cmovil.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/9-mediosalternos.png);&quot; href=/img/projects/cmi/9-mediosalternos.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/10-nosotros.png);&quot; href=/img/projects/cmi/10-nosotros.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/11-aeropuertos.png);&quot; href=/img/projects/cmi/11-aeropuertos.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/12-macrobus.png);&quot; href=/img/projects/cmi/12-macrobus.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/13-movil.png);&quot; href=/img/projects/cmi/13-movil.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/7-home.png);&quot; href=http://localhost:4000/img/projects/cmi/7-home.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/8-cmovil.png);&quot; href=http://localhost:4000/img/projects/cmi/8-cmovil.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/9-mediosalternos.png);&quot; href=http://localhost:4000/img/projects/cmi/9-mediosalternos.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/10-nosotros.png);&quot; href=http://localhost:4000/img/projects/cmi/10-nosotros.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/11-aeropuertos.png);&quot; href=http://localhost:4000/img/projects/cmi/11-aeropuertos.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/12-macrobus.png);&quot; href=http://localhost:4000/img/projects/cmi/12-macrobus.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/13-movil.png);&quot; href=http://localhost:4000/img/projects/cmi/13-movil.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h2&gt;El rediseño&lt;/h2&gt;
 &lt;h3&gt;2016&lt;/h3&gt;
 &lt;p&gt;Wireframes&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/cmi/14-wireframe.png);&quot; href=/img/projects/cmi/14-wireframe.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/cmi/15-wireframe.png);&quot; href=/img/projects/cmi/15-wireframe.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/14-wireframe.png);&quot; href=http://localhost:4000/img/projects/cmi/14-wireframe.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/15-wireframe.png);&quot; href=http://localhost:4000/img/projects/cmi/15-wireframe.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;Primeras propuestas&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/16-propuesta.png);&quot; href=/img/projects/cmi/16-propuesta.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/17-propuesta.png);&quot; href=/img/projects/cmi/17-propuesta.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/18-propuesta.png);&quot; href=/img/projects/cmi/18-propuesta.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;main-thumbnail&quot; href=/img/projects/cmi/19-propuestafinal.png&gt;&lt;img src=&quot;/img/projects/cmi/19-propuestafinal.png&quot;&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/16-propuesta.png);&quot; href=http://localhost:4000/img/projects/cmi/16-propuesta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/17-propuesta.png);&quot; href=http://localhost:4000/img/projects/cmi/17-propuesta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/18-propuesta.png);&quot; href=http://localhost:4000/img/projects/cmi/18-propuesta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;main-thumbnail&quot; href=http://localhost:4000/img/projects/cmi/19-propuestafinal.png&gt;&lt;img src=&quot;http://localhost:4000/img/projects/cmi/19-propuestafinal.png&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;Íconos&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;main-thumbnail&quot; href=/img/projects/cmi/20-iconos.png&gt;&lt;img src=&quot;/img/projects/cmi/20-iconos.png&quot;&gt;&lt;/a&gt;
+  &lt;a class=&quot;main-thumbnail&quot; href=http://localhost:4000/img/projects/cmi/20-iconos.png&gt;&lt;img src=&quot;http://localhost:4000/img/projects/cmi/20-iconos.png&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;Producto final&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/22-home.jpg);&quot; href=/img/projects/cmi/22-home.jpg&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/23-futbol.png);&quot; href=/img/projects/cmi/23-futbol.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/24-noticias.png);&quot; href=/img/projects/cmi/24-noticias.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/25-casos.png);&quot; href=/img/projects/cmi/25-casos.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/22-home.jpg);&quot; href=http://localhost:4000/img/projects/cmi/22-home.jpg&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/23-futbol.png);&quot; href=http://localhost:4000/img/projects/cmi/23-futbol.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/24-noticias.png);&quot; href=http://localhost:4000/img/projects/cmi/24-noticias.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(http://localhost:4000/img/projects/cmi/25-casos.png);&quot; href=http://localhost:4000/img/projects/cmi/25-casos.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 01 Apr 2016 00:00:00 -0600</pubDate>
