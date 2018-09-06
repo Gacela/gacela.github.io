@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Sep 2018 16:33:36 -0500</pubDate>
-    <lastBuildDate>Thu, 06 Sep 2018 16:33:36 -0500</lastBuildDate>
+    <pubDate>Thu, 06 Sep 2018 16:39:45 -0500</pubDate>
+    <lastBuildDate>Thu, 06 Sep 2018 16:39:45 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -136,10 +136,10 @@
 
 &lt;h2&gt;El producto final&lt;/h2&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/9-home_doname.png);&quot; href=/img/projects/doname/6-home_doname.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/10-pagina_causa.png);&quot; href=/img/projects/doname/7-pagina_causa.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/11-formulario_donacion.png);&quot; href=/img/projects/doname/8-formulario_donacion.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/12-editar_4.png);&quot; href=/img/projects/doname/9-editar_4.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/9-home_doname.png);&quot; href=/img/projects/doname/9-home_doname.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/10-pagina_causa.png);&quot; href=/img/projects/doname/10-pagina_causa.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/11-formulario_donacion.png);&quot; href=/img/projects/doname/11-formulario_donacion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/12-editar_4.png);&quot; href=/img/projects/doname/12-editar_4.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h2&gt;La web app&lt;/h2&gt;
