@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Sep 2018 16:28:51 -0500</pubDate>
-    <lastBuildDate>Thu, 06 Sep 2018 16:28:51 -0500</lastBuildDate>
+    <pubDate>Thu, 06 Sep 2018 16:33:36 -0500</pubDate>
+    <lastBuildDate>Thu, 06 Sep 2018 16:33:36 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -128,24 +128,24 @@
 &lt;h2&gt;Las ilustraciones&lt;/h2&gt;
 &lt;p&gt;Queremos lograr que personas y organizaciones con diversas necesidades de donativos encuentren útil nuestra plataforma. Por ello decidimos crear ilustraciones originales para representarlos y sus causas. Es nuestra forma de decirles &quot;Dóname también es para ti&quot;.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/6-Illustracion.png);&quot; href=/img/projects/doname/6-Illustracion.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/7-Illustracion.png);&quot; href=/img/projects/doname/7-Illustracion.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/8-Illustracion.png);&quot; href=/img/projects/doname/8-Illustracion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/6-illustracion.png);&quot; href=/img/projects/doname/6-illustracion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/7-illustracion.png);&quot; href=/img/projects/doname/7-illustracion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/8-illustracion.png);&quot; href=/img/projects/doname/8-illustracion.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 
 &lt;h2&gt;El producto final&lt;/h2&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/9-Home_doname.png);&quot; href=/img/projects/doname/6-Home_doname.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/10-Pagina_causa.png);&quot; href=/img/projects/doname/7-Pagina_causa.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/11-Formulario_donacion.png);&quot; href=/img/projects/doname/8-Formulario_donacion.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/12-Editar_4.png);&quot; href=/img/projects/doname/9-Editar_4.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/9-home_doname.png);&quot; href=/img/projects/doname/6-home_doname.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/10-pagina_causa.png);&quot; href=/img/projects/doname/7-pagina_causa.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/11-formulario_donacion.png);&quot; href=/img/projects/doname/8-formulario_donacion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/12-editar_4.png);&quot; href=/img/projects/doname/9-editar_4.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h2&gt;La web app&lt;/h2&gt;
 &lt;p&gt;Doname tiene un modelo de negocio freemium, donde las características &lt;i&gt;premium&lt;/i&gt; están enfocadas en permitir a las organizaciones con causas grandes personalicen la experiencia que ofrecen a sus donantes. Por ello creamos una web app, que servirá para recibir pagos y registrar donaciones hechas en efectivo de manera presencial en un dispositivo móvil propiedad de la persona representante de la causa. Así se pueden registrar donativos del público asistente a un evento o conferencia de la organización.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;main-thumbnail&quot; href=/img/projects/doname/14-Movil.png&gt;&lt;img src=&quot;/img/projects/doname/14-Movil.png&quot;&gt;&lt;/a&gt;
+&lt;a class=&quot;main-thumbnail&quot; href=/img/projects/doname/14-movil.png&gt;&lt;img src=&quot;/img/projects/doname/14-movil.png&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
