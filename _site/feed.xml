@@ -6,15 +6,42 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Sep 2018 00:54:34 -0500</pubDate>
-    <lastBuildDate>Tue, 04 Sep 2018 00:54:34 -0500</lastBuildDate>
+    <pubDate>Wed, 12 Sep 2018 00:49:29 -0500</pubDate>
+    <lastBuildDate>Wed, 12 Sep 2018 00:49:29 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Vexilo</title>
+        <description>&lt;h3&gt;2016&lt;/h3&gt;
+&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;main-thumbnail&quot; href=/img/projects/vexilo/1-homev2.png&gt;&lt;img src=&quot;/img/projects/vexilo/1-homev2.jpg&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;h3&gt;2018&lt;/h3&gt;
+&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;main-thumbnail&quot; href=/img/projects/vexilo/2-homev3.png&gt;&lt;img src=&quot;/img/projects/vexilo/2-homev3.png&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 11 Sep 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/vexilo/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/vexilo/</guid>
+        
+        <category>Diseño web</category>
+        
+        <category>Interfaz de usuario</category>
+        
+        <category>Ilustración</category>
+        
+        
+        <category>project</category>
+        
+      </item>
     
       <item>
         <title>Logofolio</title>
         <description>&lt;p&gt;Este es el lugar donde viven los trabajos de logotipos que he realizado para proyectos web o pequeñas empresas donde la identidad visual es parte importante del producto mínimo viable, pero no necesariamente lleva un trabajo de estrategia de marca detrás.&lt;/p&gt;
 
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/logofolio/budamar.png);&quot; href=/img/projects/logofolio/budamar_full.png&gt;&lt;/a&gt;
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/logofolio/1904.png);&quot; href=/img/projects/logofolio/1904_full.png&gt;&lt;/a&gt;
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/logofolio/socialhive.png);&quot; href=/img/projects/logofolio/socialhive_full.png&gt;&lt;/a&gt;
   &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/logofolio/kilauea.png);&quot; href=/img/projects/logofolio/kilauea.png&gt;&lt;/a&gt;
@@ -128,24 +155,24 @@
 &lt;h2&gt;Las ilustraciones&lt;/h2&gt;
 &lt;p&gt;Queremos lograr que personas y organizaciones con diversas necesidades de donativos encuentren útil nuestra plataforma. Por ello decidimos crear ilustraciones originales para representarlos y sus causas. Es nuestra forma de decirles &quot;Dóname también es para ti&quot;.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/6-Illustracion.png);&quot; href=/img/projects/doname/6-Illustracion.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/7-Illustracion.png);&quot; href=/img/projects/doname/7-Illustracion.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/8-Illustracion.png);&quot; href=/img/projects/doname/8-Illustracion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/6-illustracion.png);&quot; href=/img/projects/doname/6-illustracion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/7-illustracion.png);&quot; href=/img/projects/doname/7-illustracion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/doname/8-illustracion.png);&quot; href=/img/projects/doname/8-illustracion.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 
 &lt;h2&gt;El producto final&lt;/h2&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/9-Home_doname.png);&quot; href=/img/projects/doname/6-Home_doname.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/10-Pagina_causa.png);&quot; href=/img/projects/doname/7-Pagina_causa.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/11-Formulario_donacion.png);&quot; href=/img/projects/doname/8-Formulario_donacion.png&gt;&lt;/a&gt;
-&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/12-Editar_4.png);&quot; href=/img/projects/doname/9-Editar_4.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/9-home_doname.png);&quot; href=/img/projects/doname/9-home_doname.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/10-pagina_causa.png);&quot; href=/img/projects/doname/10-pagina_causa.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/11-formulario_donacion.png);&quot; href=/img/projects/doname/11-formulario_donacion.png&gt;&lt;/a&gt;
+&lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/doname/12-editar_4.png);&quot; href=/img/projects/doname/12-editar_4.png&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h2&gt;La web app&lt;/h2&gt;
 &lt;p&gt;Doname tiene un modelo de negocio freemium, donde las características &lt;i&gt;premium&lt;/i&gt; están enfocadas en permitir a las organizaciones con causas grandes personalicen la experiencia que ofrecen a sus donantes. Por ello creamos una web app, que servirá para recibir pagos y registrar donaciones hechas en efectivo de manera presencial en un dispositivo móvil propiedad de la persona representante de la causa. Así se pueden registrar donativos del público asistente a un evento o conferencia de la organización.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-&lt;a class=&quot;main-thumbnail&quot; href=/img/projects/doname/14-Movil.png&gt;&lt;img src=&quot;/img/projects/doname/14-Movil.png&quot;&gt;&lt;/a&gt;
+&lt;a class=&quot;main-thumbnail&quot; href=/img/projects/doname/14-movil.png&gt;&lt;img src=&quot;/img/projects/doname/14-movil.png&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
@@ -183,8 +210,8 @@
       <item>
         <title>Macadamia</title>
         <description>&lt;div class=&quot;thumbnail-row&quot;&gt;
-  &lt;a class=&quot;main-thumbnail&quot; href=&quot;http://macadamia.com.mx&quot; target=&quot;_blank&quot;&gt;
-    &lt;video autoplay muted loop id=&quot;videoMacadamia&quot;&gt;
+  &lt;a class=&quot;text-center&quot; href=&quot;http://macadamia.com.mx&quot; target=&quot;_blank&quot;&gt;
+    &lt;video class=&quot;main-thumbnail&quot; autoplay muted loop id=&quot;videoMacadamia&quot;&gt;
   &lt;source src=&quot;/img/projects/macadamia/1-macadamia.mp4&quot; type=&quot;video/mp4&quot;&gt;
 &lt;/video&gt;
 &lt;/a&gt;
@@ -320,29 +347,6 @@
       </item>
     
       <item>
-        <title>Vexilo</title>
-        <description>![My helpful screenshot](post.cover_img)
-</description>
-        <pubDate>Thu, 01 Dec 2016 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2018/vexilo/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/vexilo/</guid>
-        
-        <category>Diseño web</category>
-        
-        <category>Interfaz de usuario</category>
-        
-        <category>Ilustración</category>
-        
-        
-        <category>project</category>
-        
-        <category>case study</category>
-        
-        <category>draft</category>
-        
-      </item>
-    
-      <item>
         <title>CentiaCRM</title>
         <description>&lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
   &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/centia/1-identidad.png);&quot; href=/img/projects/centia/1-identidad.png&gt;&lt;/a&gt;
@@ -397,15 +401,18 @@
     
       <item>
         <title>CMI</title>
-        <description>&lt;h2&gt;El lanzamiento&lt;/h2&gt;
+        <description>&lt;p&gt;CMI fue una división de América Móvil dedicada a medios alternos y digitales para publicidad. Se trabajó con ellos en dos ocasiones para el lanzamiento de la primera versión de su sitio y un rediseño contemplando albergar más contenido.&lt;/p&gt;
+&lt;h2&gt;El lanzamiento&lt;/h2&gt;
 &lt;h3&gt;2013&lt;/h3&gt;
-&lt;p&gt;Primeras propuestas&lt;/p&gt;
+&lt;h3&gt;Primeras propuestas&lt;/h3&gt;
+&lt;p&gt;Al tratarse del lanzamiento de esta rama de América Móvil existió libertad creativa para proponer una solución interesante, que hiciera destacar la personalidad de la empresa.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/1-propuesta.png);&quot; href=/img/projects/cmi/1-propuesta.png&gt;&lt;/a&gt;
-  &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/2-propuesta.png);&quot; href=/img/projects/cmi/2-propuesta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/cmi/1-propuesta.png);&quot; href=/img/projects/cmi/1-propuesta.png&gt;&lt;/a&gt;
+  &lt;a class=&quot;small-thumbnail&quot; style=&quot;background-image: url(/img/projects/cmi/2-propuesta.png);&quot; href=/img/projects/cmi/2-propuesta.png&gt;&lt;/a&gt;
   &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/cmi/3-propuesta.gif);&quot; href=/img/projects/cmi/3-propuesta.gif&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;Ilustraciones&lt;/p&gt;
+&lt;p&gt;El diseño que propusimos para el sitio web presentaba dos retos: que el encabezado funcionara como un loop continuo y que no fuera muy complicado de animar. Para facilitar ambas cosas se optó por un estilo de ilustración isométrico para representar los distintos servicios que provee la empresa.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
   &lt;a class=&quot;main-thumbnail&quot; href=/img/projects/cmi/4-ilustraciones.png&gt;&lt;img src=&quot;/img/projects/cmi/4-ilustraciones.png&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -422,23 +429,26 @@
 
 &lt;h2&gt;El rediseño&lt;/h2&gt;
 &lt;h3&gt;2016&lt;/h3&gt;
-&lt;p&gt;Wireframes&lt;/p&gt;
+&lt;p&gt;En 2016 se dio la oportunidad de volver a trabajar con CMI para actualizar si sitio web. Querían reordenar el contenido para hacerlo más accesibl e incluir fotos de sus productos. Nos centramos en organizar sus productos y servicios en tres grandes categorías.
+&lt;h3&gt;Wireframes&lt;/h3&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
   &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/cmi/14-wireframe.png);&quot; href=/img/projects/cmi/14-wireframe.png&gt;&lt;/a&gt;
   &lt;a class=&quot;thumbnail&quot; style=&quot;background-image: url(/img/projects/cmi/15-wireframe.png);&quot; href=/img/projects/cmi/15-wireframe.png&gt;&lt;/a&gt;
 &lt;/div&gt;
-&lt;p&gt;Primeras propuestas&lt;/p&gt;
+&lt;h3&gt;Primeras propuestas&lt;/h3&gt;
+&lt;p&gt;La versión previa del sitio tenía el problema de valerse de representaciones muy abstractas del producto, por lo que no quedaba claro qué se estaba ofreciendo. Para esta versión quisimos corregirlo, haciendo evidentes los productos con fotografías y texto desde el encabezado.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
   &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/16-propuesta.png);&quot; href=/img/projects/cmi/16-propuesta.png&gt;&lt;/a&gt;
   &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/17-propuesta.png);&quot; href=/img/projects/cmi/17-propuesta.png&gt;&lt;/a&gt;
   &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/18-propuesta.png);&quot; href=/img/projects/cmi/18-propuesta.png&gt;&lt;/a&gt;
   &lt;a class=&quot;main-thumbnail&quot; href=/img/projects/cmi/19-propuestafinal.png&gt;&lt;img src=&quot;/img/projects/cmi/19-propuestafinal.png&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
-&lt;p&gt;Íconos&lt;/p&gt;
+&lt;h3&gt;Íconos&lt;/h3&gt;
+&lt;p&gt;Se diseñó todo un set de iconos para ilustrar las distintas características y métricas de los productos.&lt;/p&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
   &lt;a class=&quot;main-thumbnail&quot; href=/img/projects/cmi/20-iconos.png&gt;&lt;img src=&quot;/img/projects/cmi/20-iconos.png&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
-&lt;p&gt;Producto final&lt;/p&gt;
+&lt;h3&gt;Producto final&lt;/h3&gt;
 &lt;div class=&quot;thumbnail-row lightbox&quot;&gt;
   &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/22-home.jpg);&quot; href=/img/projects/cmi/22-home.jpg&gt;&lt;/a&gt;
   &lt;a class=&quot;thumbnail-screenshot&quot; style=&quot;background-image: url(/img/projects/cmi/23-futbol.png);&quot; href=/img/projects/cmi/23-futbol.png&gt;&lt;/a&gt;
@@ -459,7 +469,7 @@
         
         <category>project</category>
         
-        <category>draft</category>
+        <category>case study</category>
         
       </item>
     
